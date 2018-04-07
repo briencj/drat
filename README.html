@@ -306,25 +306,26 @@ $(document).ready(function () {
 </div>
 
 
-<section id="drat-repository-for-most-recent-versions-of-packages-maintained-by-c.-j.-brien" class="level1">
-<h1>Drat repository for most recent versions of packages maintained by C. J. Brien</h1>
+<section id="repository-for-the-most-recent-versions-of-packages-maintained-by-c.-j.-brien" class="level1">
+<h1>Repository for the most recent versions of packages maintained by C. J. Brien</h1>
 <section id="installing-a-package" class="level2">
 <h2>Installing a package</h2>
 <section id="i.-from-this-repo-using-drat" class="level3">
 <h3>I. From this repo using <code>drat</code></h3>
 <ol type="1">
-<li><p>Make sure that you have the package <code>drat</code> installed (it is available on CRAN).</p></li>
-<li><p>When you want to install a package, execute <code>addRep(&quot;briencj&quot;)</code>, if you have not already done so in your current session.</p></li>
+<li><p>Make sure that you have the package <a href="https://cran.r-project.org/web/packages/drat/index.html">drat</a> installed.</p></li>
+<li><p>When you want to install a package, execute <code>addRep(&quot;briencj&quot;)</code> in R, if you have not already done so in your current session.</p></li>
 <li><p>Use <code>install.packages</code> or <code>update.packages</code> in the usual way: e.g. <code>install.packages(&quot;asremlPlus&quot;)</code>.</p></li>
 </ol>
 </section>
 <section id="directly-from-this-repo" class="level3">
 <h3>Directly from this repo</h3>
-<p>Use <code>install.packages(pkgs, repos = &quot;http://briencj.github.io/drat&quot;)</code>.</p>
+<p>Use the R command <code>install.packages(pkgs, repos = &quot;http://briencj.github.io/drat&quot;)</code>.</p>
 </section>
 <section id="download-and-install" class="level3">
 <h3>Download and install</h3>
-<p>Download either the Windows binary or the source file for a package, using the links on this page, to a directory on your computer and then use your favourite method for installing packages on your computer.</p>
+<p>Download either the Windows binary or the source file for a package, using the links on this page, to a directory on your computer and then use your favourite method for installing packages on your computer. For example, use the R command <code>install.packages(repos=NULL, pkgs=&quot;path\\file&quot;)</code> where path is the path to the <code>directory</code> where you saved the file and <code>file</code> is the name of the downloaded file.</p>
+<p>(Note: To install the source file under Windows, you need to have <a href="https://cran.r-project.org/bin/windows/Rtools/">Rtools</a> installed.)</p>
 </section>
 </section>
 <section id="the-packages-available" class="level2">
@@ -334,14 +335,15 @@ $(document).ready(function () {
 <p><em>(last updated 29th December 2017)</em></p>
 <p>The <code>asremlPlus</code> package is a collection of R functions to augment the use of <code>ASReml-R</code> in fitting mixed models . This version is compatible with both <code>ASReml-R</code> versions 3 and 4. <code>ASReml-R</code> version 4 is currently undergoing <span class="math inline">\(\beta\)</span>-testing and has some changes in syntax that necessitate changes in <code>asremlPlus</code>. This version of <code>asremlPlus</code> is a major revamp of the package and also includes substantial syntax changes. For more information install the package and run the R command <code>news(package = “asremlPlus”)</code> or consult the manual. An overview can be obtained using <code>?asremlPlus</code>.</p>
 <p>Windows binary: <a href="http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.0-27.zip">asremlPlus_4.0-27.zip</a>; Package source: <a href="http://briencj.github.io/drat/src/contrib/asremlPlus_4.0-27.tar.gz">asremlPlus_4.0-27.tar.gz</a>.</p>
-<p>The package is also be available from CRAN <a href="https://cran.r-project.org/web/packages/asremlPlus/index.html">asremlPlus_2.0-13</a>. However, the version on CRAN may not be the latest version. The final version of asremlPlus that was produced specifically for ASReml-R version 3 is version 2.0-13. It is no longer being developed. It is described in asremlPlus.pdf, which also found in the asremlPlus\doc directory where the package is installed. An overview can be obtained using <code>?asremlPlus</code>.</p>
+<p>The package is also be available from CRAN <a href="https://cran.r-project.org/web/packages/asremlPlus/index.html">asremlPlus_2.0-13</a>. However, the version on CRAN may not be the latest version. The final version of asremlPlus that was produced specifically for ASReml-R version 3 is version 2.0-13. It is no longer being developed. It is described in asremlPlus.pdf, which also found in the <code>asremlPlus\doc</code> directory where the package is installed. An overview can be obtained using <code>?asremlPlus</code>.</p>
 <p>Windows binary: <a href="http://briencj.github.io/drat/bin/windows/contrib/3.4/asremlPlus_2.0-13.zip">asremlPlus_2.0-13.zip</a>; Package source: <a href="http://briencj.github.io/drat/src/contrib/asremlPlus_2.0-13.tar.gz">asremlPlus_2.0-13.tar.gz</a>.</p>
 </section>
 <section id="dae" class="level3">
 <h3><code>dae</code></h3>
 <p><em>(last updated 6th April 2018)</em></p>
-<p>The <code>dae</code> package of R functions has been developed to facilitate the use of R for the design and analysis of variance of experiments. It is described in dae-manual.pdf, which is also found in the dae\doc directory where the package is installed. Also found in this directory is a vignette describing the how to use designRandomize to produce randomized layout for experiments and designAnatomy to assessing the properties of designs. It covers both standard and multiphase experimental designs. The data sets that go with the vignette are available in dae.</p>
+<p>The <code>dae</code> package of R functions has been developed to facilitate the use of R for the design and analysis of variance of experiments. It is described in dae-manual.pdf, which is also found in the <code>dae\doc</code> directory where the package is installed. Also found in this directory is a vignette describing the how to use designRandomize to produce randomized layout for experiments and designAnatomy to assessing the properties of designs. It covers both standard and multiphase experimental designs. The data sets that go with the vignette are available in dae.</p>
 <p>Windows binary: <a href="http://briencj.github.io/drat/bin/windows/contrib/3.5/dae_3.0-15.zip">dae_3.0-15.zip</a>; Package source: <a href="http://briencj.github.io/drat/src/contrib/dae_3.0-15.tar.gz">dae_3.0-15.tar.gz</a>.</p>
+<p>The package is also available from CRAN: <a href="https://cran.r-project.org/web/packages/dae/index.html" class="uri">https://cran.r-project.org/web/packages/dae/index.html</a>. However, the version here is likely to be somewhat newer than that on CRAN.</p>
 </section>
 </section>
 <section id="imagedata" class="level2">
@@ -349,6 +351,7 @@ $(document).ready(function () {
 <p><em>(last updated 23rd February 2018)</em></p>
 <p>The <code>imageData</code> package is a collection of R functions that aids in processing and plotting data from a Lemna-Tec Scananalyzer. It is described in imageData-manual.pdf, which also found in the <code>imageData\doc</code> directory where the package is installed. An overview can be obtained using <code>?imageData</code>. The functions can be applied selectively to longitudinal data in general.</p>
 <p>Windows binary: <a href="http://briencj.github.io/drat/bin/windows/contrib/3.5/imageData_0.1-48.zip">imageData_0.1-48.zip</a>; Package source: <a href="http://briencj.github.io/drat/src/contrib/imageData_0.1-48.tar.gz">imageData_0.1-48.tar.gz</a>.</p>
+<p>The package is also available from CRAN: <a href="https://cran.r-project.org/web/packages/imageData/index.html" class="uri">https://cran.r-project.org/web/packages/imageData/index.html</a>. However, the version here is likely to be somewhat newer than that on CRAN.</p>
 </section>
 </section>
 
