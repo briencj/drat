@@ -17,3 +17,12 @@ Suggests: testthat
 License: GPL (>= 2)
 MD5sum: 3a72268bd543ff98abc37a4ce6dfccc9
 NeedsCompilation: no
+
+Package: imageData
+Version: 0.1-48
+Depends: R (>= 2.10.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: b02e6000e0bc1e3bc31093b78262441d
+NeedsCompilation: no
