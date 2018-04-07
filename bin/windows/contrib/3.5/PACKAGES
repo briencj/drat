@@ -13,3 +13,10 @@ Depends: R (>= 2.10.0), ggplot2
 Imports: graphics, methods, stats
 Suggests: testthat
 License: GPL (>= 2)
+
+Package: imageData
+Version: 0.1-48
+Depends: R (>= 2.10.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat
+License: GPL (>= 2)
