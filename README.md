@@ -1,4 +1,7 @@
-# Repository for the most recent versions of packages maintained by C. J. Brien
+# Repository for the most recent versions of packages maintained by Chris Brien
+
+Email: <Chris.Brien@unisa.edu.au>
+URL: <http:\\chris.brien.name>
 
 ## Installing a package
 
