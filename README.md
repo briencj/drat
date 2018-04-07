@@ -1,11 +1,8 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
 # Drat repository for most recent versions of packages maintained by C. J. Brien
 
-## Installing packages from this repo using `drat`
+## Installing a package
+
+### I. From this repo using `drat`
 
 1. Make sure that you have the package `drat` installed (it is available on CRAN).
 
@@ -13,9 +10,13 @@ output:
 
 3. Use `install.packages` or `update.packages` in the usual way: e.g. `install.packages("asremlPlus")`.
 
-## Installing packages directly
+### Directly from this repo
 
 Use `install.packages(pkgs, repos = "http://briencj.github.io/drat")`.
+
+### Download and install
+
+Download either the Windows binary or the source file for a package, using the links on this page, to a directory on your computer and then use your favourite method for installing packages on your computer.
 
 ## The packages available
 
