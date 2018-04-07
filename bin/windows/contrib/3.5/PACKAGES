@@ -6,3 +6,10 @@ Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, stringr, RColorBrew
 Suggests: testthat
 Enhances: asreml
 License: MIT + file LICENSE
+
+Package: dae
+Version: 3.0-15
+Depends: R (>= 2.10.0), ggplot2
+Imports: graphics, methods, stats
+Suggests: testthat
+License: GPL (>= 2)

@@ -8,3 +8,12 @@ Enhances: asreml
 License: MIT + file LICENSE
 MD5sum: 42cfeb507db87f7df6e65da2ac096d95
 NeedsCompilation: no
+
+Package: dae
+Version: 3.0-15
+Depends: R (>= 2.10.0), ggplot2
+Imports: graphics, methods, stats
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 3a72268bd543ff98abc37a4ce6dfccc9
+NeedsCompilation: no
