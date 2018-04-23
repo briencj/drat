@@ -15,7 +15,7 @@ Suggests: testthat
 License: GPL (>= 2)
 
 Package: imageData
-Version: 0.1-48
+Version: 0.1-49
 Depends: R (>= 2.10.0)
 Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
 Suggests: testthat
