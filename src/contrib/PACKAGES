@@ -10,19 +10,19 @@ MD5sum: d47355176981e3beed8a72ab1fef22b0
 NeedsCompilation: no
 
 Package: dae
-Version: 3.0-15
+Version: 3.0-16
 Depends: R (>= 2.10.0), ggplot2
 Imports: graphics, methods, stats
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 3a72268bd543ff98abc37a4ce6dfccc9
+MD5sum: c289aa6184727d0f60c7ee6966964248
 NeedsCompilation: no
 
 Package: imageData
-Version: 0.1-49
+Version: 0.1-50
 Depends: R (>= 2.10.0)
 Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 494935148a2685d6279f7770782d09c9
+MD5sum: 0a36babfc6ac8ea06f938b9de460ef91
 NeedsCompilation: no

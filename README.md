@@ -15,7 +15,9 @@ URL: <http:\\chris.brien.name>
 
 ### Directly from this repo
 
-Use the R command `install.packages(pkgs, repos = "http://briencj.github.io/drat")`.
+Use the R command `install.packages(pkgs, repos = "http://briencj.github.io/drat")`. 
+
+Replace `install.packages` with `update.packages` to check for updates.
 
 ### Download and install
 
@@ -38,20 +40,20 @@ The final version of asremlPlus that was produced specifically for ASReml-R vers
 Windows binary: [asremlPlus_2.0-13.zip](http://briencj.github.io/drat/bin/windows/contrib/3.4/asremlPlus_2.0-13.zip);  Package source: [asremlPlus_2.0-13.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_2.0-13.tar.gz).
 
 ### `dae`
-*(last updated 6th April 2018)*
+*(last updated 24th May 2018)*
 
 The `dae` package of R functions has been developed to facilitate the use of R for the design and analysis of variance of experiments. It is described in dae-manual.pdf, which is also found in the `dae\doc` directory where the package is installed. Also found in this directory is a vignette describing the how to use designRandomize to produce randomized layout for experiments and designAnatomy to assessing the properties of designs. It covers both standard and multiphase experimental designs. The data sets that go with the vignette are available in dae.
 
-Windows binary: [dae_3.0-15.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/dae_3.0-15.zip);  Package source: [dae_3.0-15.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.0-15.tar.gz).
+Windows binary: [dae_3.0-16.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/dae_3.0-16.zip);  Package source: [dae_3.0-16.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.0-16.tar.gz).
 
 The package is also available from CRAN: <https://cran.r-project.org/web/packages/dae/index.html>. However, the version here is likely to be somewhat newer than that on CRAN.
 
 ## `imageData`
-*(last updated 23rd April 2018)*
+*(last updated 24th May 2018)*
 
 The `imageData` package is a collection of R functions that aids in processing and plotting data from a Lemna-Tec Scananalyzer. It is described in imageData-manual.pdf, which also found in the `imageData\doc` directory where the package is installed. An overview can be obtained using `?imageData`. The functions can be applied selectively to longitudinal data in general.
 
-Windows binary: [imageData_0.1-49.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/imageData_0.1-49.zip);  Package source: [imageData_0.1-49.tar.gz](http://briencj.github.io/drat/src/contrib/imageData_0.1-49.tar.gz).
+Windows binary: [imageData_0.1-50.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/imageData_0.1-50.zip);  Package source: [imageData_0.1-50.tar.gz](http://briencj.github.io/drat/src/contrib/imageData_0.1-50.tar.gz).
 
 The package is also available from CRAN: <https://cran.r-project.org/web/packages/imageData/index.html>. However, the version here is likely to be somewhat newer than that on CRAN.
 
