@@ -6,8 +6,6 @@ Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, stringr, RColorBrew
 Suggests: testthat, lattice
 Enhances: asreml
 License: MIT + file LICENSE
-MD5sum: 9e4e7a9807a1625683a2a4dd96f8e05e
-NeedsCompilation: no
 
 Package: dae
 Version: 3.0-16
@@ -15,8 +13,6 @@ Depends: R (>= 3.5.0), ggplot2
 Imports: graphics, methods, stats
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: ea83621e2326be77a4d6fbabc6c7beda
-NeedsCompilation: no
 
 Package: imageData
 Version: 0.1-50
@@ -24,5 +20,3 @@ Depends: R (>= 3.5.0)
 Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 71ae213d5fda02067d706f054fb84dbb
-NeedsCompilation: no
