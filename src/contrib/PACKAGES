@@ -1,28 +1,28 @@
 Package: asremlPlus
 Version: 4.1-01
-Depends: R (>= 3.5.0)
+Depends: R (>= 3.1.0)
 Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, stringr, RColorBrewer,
           grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice
 Enhances: asreml
 License: MIT + file LICENSE
-MD5sum: 9e4e7a9807a1625683a2a4dd96f8e05e
+MD5sum: 4722f1b79faa409bc3f8d8b7c6c4bba0
 NeedsCompilation: no
 
 Package: dae
-Version: 3.0-16
-Depends: R (>= 3.5.0), ggplot2
+Version: 3.0-17
+Depends: R (>= 3.1.0), ggplot2
 Imports: graphics, methods, stats
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: ea83621e2326be77a4d6fbabc6c7beda
+MD5sum: 10c2bc41fde4b5627f6bf62a4a5ff828
 NeedsCompilation: no
 
 Package: imageData
-Version: 0.1-50
-Depends: R (>= 3.5.0)
+Version: 0.1-51
+Depends: R (>= 3.1.0)
 Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 71ae213d5fda02067d706f054fb84dbb
+MD5sum: 381c1d297a93425379b9992dfc36a8a1
 NeedsCompilation: no
