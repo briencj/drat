@@ -6,7 +6,7 @@ Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
 Suggests: testthat, lattice
 Enhances: asreml
 License: MIT + file LICENSE
-MD5sum: c2e2f42f8b16a7246c0ecbf0e9cc5fff
+MD5sum: d4a2bd613dd66c791fbb576f3b71277c
 NeedsCompilation: no
 
 Package: dae
