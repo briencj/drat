@@ -1,12 +1,12 @@
 Package: asremlPlus
-Version: 4.1-04
+Version: 4.1-05
 Depends: R (>= 3.1.0)
 Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
           RColorBrewer, grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice
 Enhances: asreml
 License: MIT + file LICENSE
-MD5sum: bac5b3623622dfc7995f76ad079a35c7
+MD5sum: 51a0c11a0dbc9840116fe92ffb0e53d8
 NeedsCompilation: no
 
 Package: dae
