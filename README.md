@@ -14,7 +14,7 @@ URL: <http:\\chris.brien.name>
 
 1. Make sure that you have the package [drat](https://cran.r-project.org/web/packages/drat/index.html) installed.
 
-2. When you want to install a package, execute `addRepo("briencj")` in R, if you have not already done so in your current session.
+2. When you want to install a package, execute `library(drat)` followed by `addRepo("briencj")` in R, if you have not already done so in your current session.
 
 3. Use `install.packages` or `update.packages` in the usual way: e.g. `install.packages("asremlPlus")`.
 
