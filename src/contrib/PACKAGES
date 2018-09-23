@@ -1,3 +1,13 @@
+Package: asreml3Plus
+Version: 2.0-14
+Depends: R (>= 2.10.0)
+Imports: dae, ggplot2, stats, methods, utils, grDevices
+Suggests: testthat
+Enhances: asreml
+License: GPL (>= 2)
+MD5sum: da49e8327634657747407252ef31b136
+NeedsCompilation: no
+
 Package: asremlPlus
 Version: 4.1-07
 Depends: R (>= 3.1.0)
