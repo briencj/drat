@@ -53,11 +53,11 @@ Windows binary: [asreml3Plus_2.0-14.zip](http://briencj.github.io/drat/bin/windo
 Windows binary: [asremlPlus_2.0-13.zip](http://briencj.github.io/drat/bin/windows/contrib/3.4/asremlPlus_2.0-13.zip);  Package source: [asremlPlus_2.0-13.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_2.0-13.tar.gz).
 
 ### `dae` {#dae}
-*(last updated 2nd September 2018)*
+*(last updated 28th September 2018)*
 
 The `dae` package of R functions has been developed to facilitate the use of R for the design and analysis of variance of experiments. It is described in dae-manual.pdf, which is also found in the `dae\doc` directory where the package is installed. Also found in this directory is a vignette describing the how to use designRandomize to produce randomized layout for experiments and designAnatomy to assessing the properties of designs. It covers both standard and multiphase experimental designs. The data sets that go with the vignette are available in dae.
 
-Windows binary: [dae_3.0-20.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/dae_3.0-20.zip);  Package source: [dae_3.0-20.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.0-20.tar.gz).
+Windows binary: [dae_3.0-21.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5.1/dae_3.0-21.zip);  Package source: [dae_3.0-21.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.0-21.tar.gz).
 
 The package is also available from CRAN: <https://cran.r-project.org/web/packages/dae/index.html>. However, the version here is likely to be more recent than that on CRAN.
 
