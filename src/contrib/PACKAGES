@@ -20,12 +20,12 @@ MD5sum: de0496bbc838da7cc6cfe5e3e21e6ee3
 NeedsCompilation: no
 
 Package: dae
-Version: 3.0-21
+Version: 3.0-22
 Depends: R (>= 3.1.0), ggplot2
 Imports: graphics, methods, stats
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: bf7d1ea299dd1191c56b020d0c686479
+MD5sum: 7ac6642f2355b3d81e3fb82d98b25bf8
 NeedsCompilation: no
 
 Package: imageData
