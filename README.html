@@ -275,6 +275,9 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
 }
@@ -307,7 +310,7 @@ $(document).ready(function () {
 </div>
 
 
-<p>Email: <a href="mailto:Chris.Brien@unisa.edu.au">Chris.Brien@unisa.edu.au</a> URL: <a href="http:\\chris.brien.name" class="uri">http:\\chris.brien.name</a></p>
+<p>Email: <a href="mailto:Chris.Brien@unisa.edu.au">Chris.Brien@unisa.edu.au</a> URL: <a href="http://chris.brien.name" class="uri">http://chris.brien.name</a></p>
 <div id="installing-a-package" class="section level2">
 <h2>Installing a package</h2>
 <div id="i.-from-this-repo-using-drat" class="section level3">
@@ -338,10 +341,12 @@ $(document).ready(function () {
 </ul>
 <div id="aplus" class="section level3">
 <h3><code>asremlPlus</code></h3>
-<p><em>(last updated 23rd September 2018)</em></p>
-<p>The <code>asremlPlus</code> package is a collection of R functions to augment the use of <code>ASReml-R</code> in fitting mixed models. This version is compatible with both <code>ASReml-R</code> versions 3 and 4.1, but not 4.0. <code>ASReml-R</code> version 4.1 is currently undergoing <span class="math inline">\(\beta\)</span>-testing and has some changes in syntax that necessitate changes in <code>asremlPlus</code>. This version of <code>asremlPlus</code> is a major revamp of the package and also includes substantial syntax changes. For more information install the package and run the R command <code>news(package = “asremlPlus”)</code> or consult the manual. An overview can be obtained using <code>?asremlPlus</code>.</p>
-<p>Windows binary: <a href="http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.1-07.zip">asremlPlus_4.1-07.zip</a>; Package source: <a href="http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-07.tar.gz">asremlPlus_4.1-07.tar.gz</a>.</p>
-<p>The package is also be available from CRAN <a href="https://cran.r-project.org/web/packages/asremlPlus/index.html">asremlPlus_2.0-13</a>. However, the version on CRAN may not be the latest version. The final version of asremlPlus that was produced specifically for ASReml-R version 3 is version 2.0-13. It is no longer being developed. It is described in asremlPlus.pdf, which also found in the <code>asremlPlus\doc</code> directory where the package is installed. An overview can be obtained using <code>?asremlPlus</code>. A version built for R 3.5.0 is available as <code>asreml3Plus</code> version 2.0-14; that is, to use this version, a <code>3</code> must be included in the package name.</p>
+<p><em>(last updated 12th September 2018)</em></p>
+<p>The <code>asremlPlus</code> package is a collection of R functions to augment the use of <code>ASReml-R</code> in fitting mixed models. The current version is compatible with both <code>ASReml-R</code> versions 3 and 4.1, but not 4.0. It is also available from the Github repo at <a href="https://github.com/briencj/asremlPlus" class="uri">https://github.com/briencj/asremlPlus</a>.</p>
+<p>Versions 4.x-xx of <code>asremlPlus</code> are a major revamp of the package and include substantial syntax changes. In particular, most functions are S3 methods and so the type of the object can be omitted from the function name when calling the function.</p>
+<p>For more information, install the package and run the R command <code>news(package = “asremlPlus”)</code> or consult the manual. An overview can be obtained using <code>?asremlPlus</code>.</p>
+<p>Windows binary: <a href="http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.1-08.zip">asremlPlus_4.1-08.zip</a>; Package source: <a href="http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-08.tar.gz">asremlPlus_4.1-08.tar.gz</a>.</p>
+<p>The package is also be available from CRAN <a href="https://cran.r-project.org/web/packages/asremlPlus/index.html">asremlPlus_2.0-13</a>. However, the version on CRAN may not be the latest version. The final version of asremlPlus that was produced specifically for ASReml-R version 3 is version 2.0-13. It is no longer being developed. It is described in asremlPlus.pdf, which also found in the <code>asremlPlus\doc</code> directory where the package is installed. An overview can be obtained using <code>?asremlPlus</code>. A version of <code>asremlPlus</code> 2.0-13 built for R 3.5.0 is available as <code>asreml3Plus</code> version 2.0-14; that is, to load this version, a <code>3</code> must be included in the package name.</p>
 <p>Windows binary: <a href="http://briencj.github.io/drat/bin/windows/contrib/3.5/asreml3Plus_2.0-14.zip">asreml3Plus_2.0-14.zip</a>; Package source: <a href="http://briencj.github.io/drat/src/contrib/asreml3Plus_2.0-14.tar.gz">asreml3Plus_2.0-14.tar.gz</a> (built under R 3.5.0).</p>
 <p>Windows binary: <a href="http://briencj.github.io/drat/bin/windows/contrib/3.4/asremlPlus_2.0-13.zip">asremlPlus_2.0-13.zip</a>; Package source: <a href="http://briencj.github.io/drat/src/contrib/asremlPlus_2.0-13.tar.gz">asremlPlus_2.0-13.tar.gz</a>.</p>
 </div>
