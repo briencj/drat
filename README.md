@@ -40,7 +40,7 @@ Download either the Windows binary or the source file for a package, using the l
 * [`imageData`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer.
 
 ### `asremlPlus` {#aplus}
-*(last updated 12th September 2018)*
+*(last updated 12th December 2018)*
 
 The `asremlPlus` package is a collection of R functions to augment the use of `ASReml-R` in fitting mixed models. The current version  is compatible with both `ASReml-R` versions 3 and 4.1, but not 4.0. It is also available from the Github repo at <https://github.com/briencj/asremlPlus>.
 
