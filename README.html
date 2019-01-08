@@ -281,6 +281,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -288,14 +291,74 @@ button.code-folding-btn:focus {
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -335,17 +398,17 @@ $(document).ready(function () {
 <div id="the-packages-available" class="section level2">
 <h2>The packages available</h2>
 <ul>
-<li><p><a href="#aplus"><code>asremlPlus</code></a> - augments the use of <code>ASReml-R</code> in fitting mixed models.</p></li>
+<li><p><a href="#aplus"><code>asremlPlus</code></a> - augments the use of <code>ASReml-R</code> in fitting mixed models and packages generally in exploring prediction differences.</p></li>
 <li><p><a href="#dae"><code>dae</code></a> - facilitates the use of R for the design and analysis of variance of experiments.</p></li>
 <li><p><a href="#idata"><code>imageData</code></a> - aids in processing and plotting data from a Lemna-Tec Scananalyzer.</p></li>
 </ul>
 <div id="aplus" class="section level3">
 <h3><code>asremlPlus</code></h3>
-<p><em>(last updated 12th December 2018)</em></p>
-<p>The <code>asremlPlus</code> package is a collection of R functions to augment the use of <code>ASReml-R</code> in fitting mixed models. The current version is compatible with both <code>ASReml-R</code> versions 3 and 4.1, but not 4.0. It is also available from the Github repo at <a href="https://github.com/briencj/asremlPlus" class="uri">https://github.com/briencj/asremlPlus</a>.</p>
+<p><em>(last updated 8th January 2019)</em></p>
+<p>The <code>asremlPlus</code> package is a collection of R functions to augment the use of <code>ASReml-R</code> in fitting mixed models and packages generally in exploring prediction differences. The current version is compatible with both <code>ASReml-R</code> versions 3 and 4.1, but not 4.0. It is also available from the Github repo at <a href="https://github.com/briencj/asremlPlus" class="uri">https://github.com/briencj/asremlPlus</a>.</p>
 <p>Versions 4.x-xx of <code>asremlPlus</code> are a major revamp of the package and include substantial syntax changes. In particular, most functions are S3 methods and so the type of the object can be omitted from the function name when calling the function.</p>
 <p>For more information, install the package and run the R command <code>news(package = “asremlPlus”)</code> or consult the manual. An overview can be obtained using <code>?asremlPlus</code>.</p>
-<p>Windows binary: <a href="http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.1-08.zip">asremlPlus_4.1-08.zip</a>; Package source: <a href="http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-08.tar.gz">asremlPlus_4.1-08.tar.gz</a>.</p>
+<p>Windows binary: <a href="http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.1-10.zip">asremlPlus_4.1-10.zip</a>; Package source: <a href="http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-10.tar.gz">asremlPlus_4.1-10.tar.gz</a>.</p>
 <p>The package is also be available from CRAN <a href="https://cran.r-project.org/web/packages/asremlPlus/index.html">asremlPlus_2.0-13</a>. However, the version on CRAN may not be the latest version. The final version of asremlPlus that was produced specifically for ASReml-R version 3 is version 2.0-13. It is no longer being developed. It is described in asremlPlus.pdf, which also found in the <code>asremlPlus\doc</code> directory where the package is installed. An overview can be obtained using <code>?asremlPlus</code>. A version of <code>asremlPlus</code> 2.0-13 built for R 3.5.0 is available as <code>asreml3Plus</code> version 2.0-14; that is, to load this version, a <code>3</code> must be included in the package name.</p>
 <p>Windows binary: <a href="http://briencj.github.io/drat/bin/windows/contrib/3.5/asreml3Plus_2.0-14.zip">asreml3Plus_2.0-14.zip</a>; Package source: <a href="http://briencj.github.io/drat/src/contrib/asreml3Plus_2.0-14.tar.gz">asreml3Plus_2.0-14.tar.gz</a> (built under R 3.5.0).</p>
 <p>Windows binary: <a href="http://briencj.github.io/drat/bin/windows/contrib/3.4/asremlPlus_2.0-13.zip">asremlPlus_2.0-13.zip</a>; Package source: <a href="http://briencj.github.io/drat/src/contrib/asremlPlus_2.0-13.tar.gz">asremlPlus_2.0-13.tar.gz</a>.</p>

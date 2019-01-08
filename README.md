@@ -33,22 +33,22 @@ Download either the Windows binary or the source file for a package, using the l
 
 ## The packages available
 
-* [`asremlPlus`](#aplus) - augments the use of `ASReml-R` in fitting mixed models.
+* [`asremlPlus`](#aplus) - augments the use of `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences.
 
 * [`dae`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
 
 * [`imageData`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer.
 
 ### `asremlPlus` {#aplus}
-*(last updated 12th December 2018)*
+*(last updated 8th January 2019)*
 
-The `asremlPlus` package is a collection of R functions to augment the use of `ASReml-R` in fitting mixed models. The current version  is compatible with both `ASReml-R` versions 3 and 4.1, but not 4.0. It is also available from the Github repo at <https://github.com/briencj/asremlPlus>.
+The `asremlPlus` package is a collection of R functions to augment the use of `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences. The current version  is compatible with both `ASReml-R` versions 3 and 4.1, but not 4.0. It is also available from the Github repo at <https://github.com/briencj/asremlPlus>.
 
 Versions 4.x-xx of `asremlPlus` are a major revamp of the package and include substantial syntax changes. In particular, most functions are S3 methods and so the type of the object can be omitted from the function name when calling the function.  
 
 For more information, install the package and run the R command `news(package = “asremlPlus”)` or consult the manual. An overview can be obtained using `?asremlPlus`.
 
-Windows binary: [asremlPlus_4.1-08.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.1-08.zip);  Package source: [asremlPlus_4.1-08.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-08.tar.gz).
+Windows binary: [asremlPlus_4.1-10.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.1-10.zip);  Package source: [asremlPlus_4.1-10.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-10.tar.gz).
 
 The package is also be available from CRAN [asremlPlus_2.0-13](https://cran.r-project.org/web/packages/asremlPlus/index.html). However, the version on CRAN may not be the latest version. 
 The final version of asremlPlus that was produced specifically for ASReml-R version 3 is version 2.0-13.  It is no longer being developed. It is described in asremlPlus.pdf, which also found in the `asremlPlus\doc` directory where the package is installed. An overview can be obtained using `?asremlPlus`. A version of `asremlPlus` 2.0-13 built for R 3.5.0 is available as `asreml3Plus`  version 2.0-14; that is, to load this version, a `3` must be included in the package name. 
