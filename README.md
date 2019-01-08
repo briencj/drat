@@ -1,10 +1,4 @@
----
-title: Repository for the most recent versions of packages maintained by Chris Brien
-output:
-  html_document: default
-  pdf_document: default
-  word_document: default
----
+# Repository for the most recent versions of packages maintained by Chris Brien
 
 Email: <Chris.Brien@unisa.edu.au>
 URL: <http://chris.brien.name>
