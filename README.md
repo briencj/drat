@@ -27,7 +27,7 @@ Download either the Windows binary or the source file for a package, using the l
 
 ## The packages available
 
-* [`asremlPlus`](#aplus) - augments the use of `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences.
+* [`asremlPlus`](#aplus) - augments `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences.
 
 * [`dae`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
 
