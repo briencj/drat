@@ -3,7 +3,9 @@
 Email: <Chris.Brien@unisa.edu.au>
 URL: <http://chris.brien.name>
 
-## Installing a package
+## Installing a package from here
+
+While the packages are available on CRAN, they are more frequently updated here so that often a more recent version will be available from here.
 
 ### I. From this repo using `drat`
 
@@ -13,13 +15,13 @@ URL: <http://chris.brien.name>
 
 3. Use `install.packages` or `update.packages` in the usual way: e.g. `install.packages("asremlPlus")`.
 
-### Directly from this repo
+### II. Directly from this repo
 
 Use the R command `install.packages(pkgs, repos = "http://briencj.github.io/drat")`. 
 
 Replace `install.packages` with `update.packages` to check for updates.
 
-### Download and install
+### III. Download and install
 
 Download either the Windows binary or the source file for a package, using the links on this page, to a directory on your computer and then use your favourite method for installing packages on your computer. For example, use the R command `install.packages(repos=NULL, pkgs="path\\file")` where path is the path to the `directory` where you saved the file and `file` is the name of the downloaded file.
 
