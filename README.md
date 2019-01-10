@@ -34,18 +34,19 @@ Download either the Windows binary or the source file for a package, using the l
 * [`imageData`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer.
 
 ### `asremlPlus` {#aplus}
-*(last updated 8th January 2019)*
+*(last updated 9th January 2019)*
 
-The `asremlPlus` package is a collection of R functions to augment the use of `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences. The current version  is compatible with both `ASReml-R` versions 3 and 4.1, but not 4.0. It is also available from the Github repo at <https://github.com/briencj/asremlPlus>.
+The `asremlPlus` package is a collection of R functions to augment `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences. The current version  is compatible with both `ASReml-R` versions 3 and 4.1, but not 4.0. 
 
-Versions 4.x-xx of `asremlPlus` are a major revamp of the package and include substantial syntax changes. In particular, most functions are S3 methods and so the type of the object can be omitted from the function name when calling the function.  
+Versions 4.x-xx of `asremlPlus` are a major revamp of the package and include substantial syntax changes. In particular, most functions are S3 methods and so the object supplied for the first argument must be of the class (the name after the last full stop in the function name) for which the function is a method and the class of the object can be omitted from the function name when calling the function. For example, `plotPredictions.data.frame` is a `plotPredictions` method for a `data.frame` and can be called using just `plotPredictions`; the object supplied to `data` must be a `data.frame`.
 
 For more information, install the package and run the R command `news(package = “asremlPlus”)` or consult the manual. An overview can be obtained using `?asremlPlus`.
 
 Windows binary: [asremlPlus_4.1-10.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.1-10.zip);  Package source: [asremlPlus_4.1-10.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-10.tar.gz).
 
-The package is also be available from CRAN [asremlPlus_2.0-13](https://cran.r-project.org/web/packages/asremlPlus/index.html). However, the version on CRAN may not be the latest version. 
-The final version of asremlPlus that was produced specifically for ASReml-R version 3 is version 2.0-13.  It is no longer being developed. It is described in asremlPlus.pdf, which also found in the `asremlPlus\doc` directory where the package is installed. An overview can be obtained using `?asremlPlus`. A version of `asremlPlus` 2.0-13 built for R 3.5.0 is available as `asreml3Plus`  version 2.0-14; that is, to load this version, a `3` must be included in the package name. 
+The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.1-10, is not updated as frequently as the version here or on GitHub. 
+
+The final version of `asremlPlus` that was produced specifically for ASReml-R version 3 is version 2.0-13.  It is no longer being developed. A version of `asremlPlus` 2.0-13 built for R 3.5.0 is available as `asreml3Plus`  version 2.0-14; that is, to load this version, a `3` must be included in the package name. 
 
 Windows binary: [asreml3Plus_2.0-14.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asreml3Plus_2.0-14.zip);  Package source: [asreml3Plus_2.0-14.tar.gz](http://briencj.github.io/drat/src/contrib/asreml3Plus_2.0-14.tar.gz) (built under R 3.5.0).
 
@@ -54,11 +55,11 @@ Windows binary: [asremlPlus_2.0-13.zip](http://briencj.github.io/drat/bin/window
 ### `dae` {#dae}
 *(last updated 17th October 2018)*
 
-The `dae` package of R functions has been developed to facilitate the use of R for the design and analysis of variance of experiments; these days the emphasis is on design. It is described in dae-manual.pdf, which is also found in the `dae\doc` directory where the package is installed. Also found in this directory is a vignette describing the how to use designRandomize to produce randomized layout for experiments and designAnatomy to assessing the properties of designs. It covers both standard and multiphase experimental designs. The data sets that go with the vignette are available in dae.
+The `dae` package of R functions has been developed to facilitate the use of R for the design and analysis of variance of experiments; these days the emphasis is on design. It is described in dae-manual.pdf, which is also found in the `dae\doc` directory where the package is installed. Also found in this directory is a vignette describing the how to use designRandomize to produce randomized layouts for experiments and designAnatomy to assessing the properties of designs. It covers both standard and multiphase experimental designs. The data sets that go with the vignette are available in dae.
 
 Windows binary: [dae_3.0-23.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/dae_3.0-23.zip);  Package source: [dae_3.0-23.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.0-23.tar.gz).
 
-The package is also available from CRAN: <https://cran.r-project.org/web/packages/dae/index.html>. However, the version here is likely to be more recent than that on CRAN.
+The package is also available from CRAN: <https://cran.r-project.org/package=dae>. However, the CRAN version, currently 3.0-23, is not updated as frequently as the version here. 
 
 ## `imageData` {#idata}
 *(last updated 15th July 2018)*
@@ -67,5 +68,5 @@ The `imageData` package is a collection of R functions that aids in processing a
 
 Windows binary: [imageData_0.1-53.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/imageData_0.1-53.zip);  Package source: [imageData_0.1-53.tar.gz](http://briencj.github.io/drat/src/contrib/imageData_0.1-53.tar.gz).
 
-The package is also available from CRAN: <https://cran.r-project.org/web/packages/imageData/index.html>. However, the version here is likely to be more recent than that on CRAN.
+The package is also available from CRAN: <https://cran.r-project.org/package=imageData>. However, the CRAN version, currently 0.1-50, is not updated as frequently as the version here.
 
