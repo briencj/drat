@@ -36,7 +36,7 @@ Download either the Windows binary or the source file for a package, using the l
 ### `asremlPlus` {#aplus}
 *(last updated 9th January 2019)*
 
-The `asremlPlus` package is a collection of R functions to augment `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences. The current version  is compatible with both `ASReml-R` versions 3 and 4.1, but not 4.0. 
+The `asremlPlus` package is a collection of R functions to augment `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences. The current version  is compatible with both `ASReml-R` versions 3 and 4.1, but not 4.0. Its `alldiffs` and `data.frame` methods can be applied to objects produced with other mixed modelling software.
 
 Versions 4.x-xx of `asremlPlus` are a major revamp of the package and include substantial syntax changes. In particular, most functions are S3 methods and so the object supplied for the first argument must be of the class (the name after the last full stop in the function name) for which the function is a method and the class of the object can be omitted from the function name when calling the function. For example, `plotPredictions.data.frame` is a `plotPredictions` method for a `data.frame` and can be called using just `plotPredictions`; the object supplied to `data` must be a `data.frame`.
 
