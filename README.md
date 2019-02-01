@@ -42,7 +42,7 @@ The `asremlPlus` package is a collection of R functions to augment `ASReml-R` in
 
 Versions 4.x-xx of `asremlPlus` are a major revamp of the package and include substantial syntax changes. In particular, most functions are S3 methods and so the object supplied for the first argument must be of the class (the name after the last full stop in the function name) for which the function is a method and the class of the object can be omitted from the function name when calling the function. For example, `plotPredictions.data.frame` is a `plotPredictions` method for a `data.frame` and can be called using just `plotPredictions`; the object supplied to `data` must be a `data.frame`.
 
-For more information, install the package and run the R command `news(package = “asremlPlus”)` or consult the manual. An overview can be obtained using `?asremlPlus`.
+For more information, install the package and run the R command `news(package = “asremlPlus”)`. For an overview enter `?asremlPlus`. Otherwise, you could consult the manual, which is  found in the `asremlPlus\doc` directory where the package is installed. Also found in the `asremlPlus\vignettes` directory is a vignette describing how to use `asremlPlus` to analyse a wheat experiment that involve spatial variation.  
 
 Windows binary: [asremlPlus_4.1-13.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.1-13.zip);  Package source: [asremlPlus_4.1-13.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-13.tar.gz).
 
@@ -55,11 +55,11 @@ Windows binary: [asreml3Plus_2.0-14.zip](http://briencj.github.io/drat/bin/windo
 Windows binary: [asremlPlus_2.0-13.zip](http://briencj.github.io/drat/bin/windows/contrib/3.4/asremlPlus_2.0-13.zip);  Package source: [asremlPlus_2.0-13.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_2.0-13.tar.gz).
 
 ### `dae` {#dae}
-*(last updated 17th October 2018)*
+*(last updated 1st February 2019)*
 
-The `dae` package of R functions has been developed to facilitate the use of R for the design and analysis of variance of experiments; these days the emphasis is on design. It is described in dae-manual.pdf, which is also found in the `dae\doc` directory where the package is installed. Also found in this directory is a vignette describing the how to use designRandomize to produce randomized layouts for experiments and designAnatomy to assessing the properties of designs. It covers both standard and multiphase experimental designs. The data sets that go with the vignette are available in dae.
+The `dae` package of R functions has been developed to facilitate the use of R for the design and analysis of variance of experiments; these days the emphasis is on design. It is described in dae-manual.pdf, which is also found in the `dae\doc` directory where the package is installed. Also found in the `dae\vignettes` directory is a vignette describing how to use designRandomize to produce randomized layouts for experiments and `designAnatomy` to assessing the properties of designs. It covers both standard and multiphase experimental designs. The data sets that go with the vignette are available in dae.
 
-Windows binary: [dae_3.0-23.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/dae_3.0-23.zip);  Package source: [dae_3.0-23.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.0-23.tar.gz).
+Windows binary: [dae_3.0-24.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/dae_3.0-24.zip);  Package source: [dae_3.0-24.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.0-24.tar.gz).
 
 The package is also available from CRAN: <https://cran.r-project.org/package=dae>. However, the CRAN version, currently 3.0-23, is not updated as frequently as the version here. 
 
