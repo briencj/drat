@@ -36,15 +36,15 @@ Download either the Windows binary or the source file for a package, using the l
 * [`imageData`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer.
 
 ### `asremlPlus` {#aplus}
-*(last updated 30th January 2019)*
+*(last updated 2nd February 2019)*
 
 The `asremlPlus` package is a collection of R functions to augment `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences. The current version  is compatible with both `ASReml-R` versions 3 and 4.1, but not 4.0. Its `alldiffs` and `data.frame` methods can be applied to objects produced with other mixed modelling software.
 
 Versions 4.x-xx of `asremlPlus` are a major revamp of the package and include substantial syntax changes. In particular, most functions are S3 methods and so the object supplied for the first argument must be of the class (the name after the last full stop in the function name) for which the function is a method and the class of the object can be omitted from the function name when calling the function. For example, `plotPredictions.data.frame` is a `plotPredictions` method for a `data.frame` and can be called using just `plotPredictions`; the object supplied to `data` must be a `data.frame`.
 
-For more information, install the package and run the R command `news(package = “asremlPlus”)`. For an overview enter `?asremlPlus`. Otherwise, you could consult the manual, which is  found in the `asremlPlus\doc` directory where the package is installed. Also found in the `asremlPlus\vignettes` directory is a vignette describing how to use `asremlPlus` to analyse a wheat experiment that involve spatial variation.  
+For more information, install the package and run the R command `news(package = “asremlPlus”)`. For an overview enter `?asremlPlus`. Otherwise, you could consult the manual, which is  found in the `asremlPlus\doc` directory where the package is installed. Also found in the `asremlPlus\vignettes` directory is a vignette describing how to use `asremlPlus` to analyse a wheat experiment that involve spatial variation and another that focusses on predictions for a three-factor Ladybird experiment.  
 
-Windows binary: [asremlPlus_4.1-13.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.1-13.zip);  Package source: [asremlPlus_4.1-13.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-13.tar.gz).
+Windows binary: [asremlPlus_4.1-14.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.1-14.zip);  Package source: [asremlPlus_4.1-14.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-14.tar.gz).
 
 The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.1-10, is not updated as frequently as the version here or on GitHub. 
 
