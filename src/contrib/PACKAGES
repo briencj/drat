@@ -13,19 +13,19 @@ Version: 4.1-16
 Depends: R (>= 3.1.0)
 Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
           RColorBrewer, grDevices, foreach, parallel, doParallel
-Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest
 Enhances: asreml
 License: MIT + file LICENSE
-MD5sum: 7cbe8ec30e5e66069ea435e1b7c8619d
+MD5sum: 0000bf9b34267f1f115efe8dfd708108
 NeedsCompilation: no
 
 Package: dae
-Version: 3.0-24
+Version: 3.0-25
 Depends: R (>= 3.1.0), ggplot2
 Imports: graphics, methods, stats
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: e9056eb03f174dbfd4730edaddc1d2f3
+MD5sum: c9171509da002e64cac5c6ebf70b772a
 NeedsCompilation: no
 
 Package: imageData
