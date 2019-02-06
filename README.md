@@ -64,11 +64,11 @@ Windows binary: [dae_3.0-25.zip](http://briencj.github.io/drat/bin/windows/contr
 The package is also available from CRAN: <https://cran.r-project.org/package=dae>. However, the CRAN version, currently 3.0-23, is not updated as frequently as the version here. 
 
 ## `imageData` {#idata}
-*(last updated 15th July 2018)*
+*(last updated 7th February 2019)*
 
-The `imageData` package is a collection of R functions that aids in processing and plotting data from a Lemna-Tec Scananalyzer. It is described in imageData-manual.pdf, which also found in the `imageData\doc` directory where the package is installed. An overview can be obtained using `?imageData`. The functions can be applied selectively to longitudinal data in general.
+The `imageData` package is a collection of R functions that aids in processing and plotting data from a Lemna-Tec Scananalyzer. It is described in imageData-manual.pdf, which can be found using `vignette("Manual", package = "imageData")`. An overview can be obtained using `?imageData`. The functions can be applied selectively to longitudinal data in general.
 
-Windows binary: [imageData_0.1-53.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/imageData_0.1-53.zip);  Package source: [imageData_0.1-53.tar.gz](http://briencj.github.io/drat/src/contrib/imageData_0.1-53.tar.gz).
+Windows binary: [imageData_0.1-54.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/imageData_0.1-54.zip);  Package source: [imageData_0.1-54.tar.gz](http://briencj.github.io/drat/src/contrib/imageData_0.1-54.tar.gz).
 
 The package is also available from CRAN: <https://cran.r-project.org/package=imageData>. However, the CRAN version, currently 0.1-50, is not updated as frequently as the version here.
 
