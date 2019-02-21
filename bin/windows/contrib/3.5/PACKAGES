@@ -7,24 +7,24 @@ Enhances: asreml
 License: GPL (>= 2)
 
 Package: asremlPlus
-Version: 4.1-17
+Version: 4.1-18
 Depends: R (>= 3.1.0)
 Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
           RColorBrewer, grDevices, foreach, parallel, doParallel
-Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
 
 Package: dae
-Version: 3.0-26
+Version: 3.0-27
 Depends: R (>= 3.1.0), ggplot2
 Imports: graphics, methods, stats
-Suggests: testthat
+Suggests: testthat, R.rsp
 License: GPL (>= 2)
 
 Package: imageData
-Version: 0.1-54
+Version: 0.1-55
 Depends: R (>= 3.1.0)
 Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
-Suggests: testthat
+Suggests: testthat, R.rsp
 License: GPL (>= 2)
