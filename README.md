@@ -41,7 +41,7 @@ Download either the Windows binary or the source file for a package, using the l
 * [`imageData`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer.
 
 ### `asremlPlus` {#aplus}
-*(last updated 21st February 2019)*
+*(last updated 22nd February 2019)*
 
 The `asremlPlus` package is a collection of R functions to augment `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences. The current version  is compatible with both `ASReml-R` versions 3 and 4.1, but not 4.0. Its `alldiffs` and `data.frame` methods can be applied to objects produced with other mixed modelling software.
 
@@ -49,7 +49,7 @@ Versions 4.x-xx of `asremlPlus` are a major revamp of the package and include su
 
 For more information, install the package and run the R command `news(package = “asremlPlus”)`. For an overview enter `?asremlPlus`. Otherwise, you could consult the manual using `vignette("Manual", package = "asremlPlus")`. Also available is a vignette describing how to use `asremlPlus` to analyse a wheat experiment that involve spatial variation (`vignette("Wheat", package = "asremlPlus")`) and another that focusses on predictions for a three-factor Ladybird experiment (`vignette("Ladybird", package = "asremlPlus")`).  
 
-Windows binary: [asremlPlus_4.1-18.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.1-18.zip);  Package source: [asremlPlus_4.1-18.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-18.tar.gz).
+Windows binary: [asremlPlus_4.1-19.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.1-19.zip);  Package source: [asremlPlus_4.1-19.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-19.tar.gz).
 
 The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.1-10, is not updated as frequently as the version here or on GitHub. 
 
