@@ -16,7 +16,7 @@ Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
-MD5sum: 032c3f416d78c92ceeea59afe282d86b
+MD5sum: e08e66eb49175d919b5c54ed2783862d
 NeedsCompilation: no
 
 Package: dae
