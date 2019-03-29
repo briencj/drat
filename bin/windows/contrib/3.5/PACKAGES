@@ -16,7 +16,7 @@ Enhances: asreml
 License: MIT + file LICENSE
 
 Package: dae
-Version: 3.0-29
+Version: 3.0-30
 Depends: R (>= 3.1.0), ggplot2
 Imports: graphics, methods, stats
 Suggests: testthat, R.rsp
