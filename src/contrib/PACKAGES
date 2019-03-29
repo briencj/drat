@@ -25,7 +25,7 @@ Depends: R (>= 3.1.0), ggplot2
 Imports: graphics, methods, stats
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
-MD5sum: a7c34b2faa5ed0c2b8aee89efbf0d17e
+MD5sum: 0cdb4a6ab06faaaa376ab90fc3c3f044
 NeedsCompilation: no
 
 Package: imageData
