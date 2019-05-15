@@ -51,7 +51,7 @@ Versions 4.x-xx of `asremlPlus` are a major revamp of the package and include su
 
 For more information, install the package and run the R command `news(package = “asremlPlus”)`. For an overview enter `?asremlPlus`. Otherwise, you could consult the manual using `vignette("Manual", package = "asremlPlus")`. Also available is a vignette describing how to use `asremlPlus` to analyse a wheat experiment that involves spatial variation (`vignette("Wheat", package = "asremlPlus")`) and another that focusses on predictions for a three-factor Ladybird experiment (`vignette("Ladybird", package = "asremlPlus")`).  
 
-Windows binary: [asremlPlus_4.1-24.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.1-24.zip);  Package source: [asremlPlus_4.1-24.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-24.tar.gz).
+Windows binary: [asremlPlus_4.1-26.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/asremlPlus_4.1-24.zip);  Package source: [asremlPlus_4.1-26.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-24.tar.gz).
 
 The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.1-26, is not updated as frequently as the version here or on GitHub. 
 
@@ -66,7 +66,7 @@ Windows binary: [asremlPlus_2.0-13.zip](http://briencj.github.io/drat/bin/window
 
 The `dae` package of R functions has been developed to facilitate the use of R for the design and analysis of variance of experiments; these days the emphasis is on design. It is described in the manual, which can be found using `vignette("Manual", package = "dae")`. Also found using `vignette("DesignNotes", package = "dae")` is a vignette describing how to use `designRandomize` to produce randomized layouts for experiments and `designAnatomy` to assessing the properties of designs. It covers both standard and multiphase experimental designs. The data sets that go with the vignette are available in `dae`.
 
-Windows binary: [dae_3.0-32.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/dae_3.0-32.zip);  Package source: [dae_3.0-32.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.0-32.tar.gz).
+Windows binary: [dae_3.0-32.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/dae_3.0-32.zip);  Package source: [dae_3.0-32.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.0-32.tar.gz).
 
 The package is also available from CRAN at <https://cran.r-project.org/package=dae> and from the Github repo at <https://github.com/briencj/dae>. However, the CRAN version, currently 3.0-23, is not updated as frequently as the version here or on GitHub.  
 
@@ -75,7 +75,7 @@ The package is also available from CRAN at <https://cran.r-project.org/package=d
 
 The `growthPheno` package is a collection of R functions that can be used to plot, smooth and extract growth traits for longitudinal data. It is described in growthPheno-manual.pdf, which can be found using `vignette("Manual", package = "growthPheno")`. An overview can be obtained using `?growthPheno`. Many of the functions can be applied to longitudinal data in general.
 
-Windows binary: [growthPheno_1.0-13.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/growthPheno_1.0-13.zip);  Package source: [growthPheno_1.0-13.tar.gz](http://briencj.github.io/drat/src/contrib/growthPheno_1.0-13.tar.gz).
+Windows binary: [growthPheno_1.0-13.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/growthPheno_1.0-13.zip);  Package source: [growthPheno_1.0-13.tar.gz](http://briencj.github.io/drat/src/contrib/growthPheno_1.0-13.tar.gz).
 
 The package is also available from CRAN: <https://cran.r-project.org/package=growthPheno>. However, the CRAN version, currently 1.0-13, is not updated as frequently as the version here.
 
@@ -87,7 +87,7 @@ This package has been superseded by `growthPheno` and is no longer maintained, b
 
 The `imageData` package is a collection of R functions that aids in processing and plotting data from a Lemna-Tec Scananalyzer. It is described in imageData-manual.pdf, which can be found using `vignette("Manual", package = "imageData")`. An overview can be obtained using `?imageData`. The functions can be applied selectively to longitudinal data in general.
 
-Windows binary: [imageData_0.1-58.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/imageData_0.1-58.zip);  Package source: [imageData_0.1-58.tar.gz](http://briencj.github.io/drat/src/contrib/imageData_0.1-58.tar.gz).
+Windows binary: [imageData_0.1-58.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/imageData_0.1-58.zip);  Package source: [imageData_0.1-58.tar.gz](http://briencj.github.io/drat/src/contrib/imageData_0.1-58.tar.gz).
 
 The package is also available from CRAN: <https://cran.r-project.org/package=imageData>.
 
