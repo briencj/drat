@@ -87,7 +87,7 @@ This package has been superseded by `growthPheno` and is no longer maintained, b
 
 The `imageData` package is a collection of R functions that aids in processing and plotting data from a Lemna-Tec Scananalyzer. It is described in imageData-manual.pdf, which can be found using `vignette("Manual", package = "imageData")`. An overview can be obtained using `?imageData`. The functions can be applied selectively to longitudinal data in general.
 
-Windows binary: [imageData_0.1-57.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/imageData_0.1-57.zip);  Package source: [imageData_0.1-57.tar.gz](http://briencj.github.io/drat/src/contrib/imageData_0.1-57.tar.gz).
+Windows binary: [imageData_0.1-58.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/imageData_0.1-58.zip);  Package source: [imageData_0.1-58.tar.gz](http://briencj.github.io/drat/src/contrib/imageData_0.1-58.tar.gz).
 
-The package is also available from CRAN: <https://cran.r-project.org/package=imageData>. However, the CRAN version, currently 0.1-57, is not updated as frequently as the version here.
+The package is also available from CRAN: <https://cran.r-project.org/package=imageData>.
 
