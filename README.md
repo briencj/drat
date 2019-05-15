@@ -51,7 +51,7 @@ Versions 4.x-xx of `asremlPlus` are a major revamp of the package and include su
 
 For more information, install the package and run the R command `news(package = “asremlPlus”)`. For an overview enter `?asremlPlus`. Otherwise, you could consult the manual using `vignette("Manual", package = "asremlPlus")`. Also available is a vignette describing how to use `asremlPlus` to analyse a wheat experiment that involves spatial variation (`vignette("Wheat", package = "asremlPlus")`) and another that focusses on predictions for a three-factor Ladybird experiment (`vignette("Ladybird", package = "asremlPlus")`).  
 
-Windows binary: [asremlPlus_4.1-26.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/asremlPlus_4.1-24.zip);  Package source: [asremlPlus_4.1-26.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-24.tar.gz).
+Windows binary: [asremlPlus_4.1-26.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/asremlPlus_4.1-26.zip);  Package source: [asremlPlus_4.1-26.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-26.tar.gz).
 
 The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.1-26, is not updated as frequently as the version here or on GitHub. 
 
