@@ -1,8 +1,3 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
 # Repository for the most recent versions of packages maintained by Chris Brien
 
 Email: <Chris.Brien@unisa.edu.au>
