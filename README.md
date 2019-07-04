@@ -38,7 +38,7 @@ Download either the Windows binary or the source file for a package, using the l
 * [`imageData`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer.
 
 ### `asremlPlus` {#aplus}
-*(last updated 23rd June 2019)*
+*(last updated 4th July 2019)*
 
 The `asremlPlus` package is a collection of R functions to augment `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences. The current version  is compatible with both `ASReml-R` versions 3 and 4.1, but not 4.0. Its `alldiffs` and `data.frame` methods can be applied to objects produced with other mixed modelling software.
 
@@ -46,13 +46,13 @@ Versions 4.x-xx of `asremlPlus` are a major revamp of the package and include su
 
 For more information, install the package and run the R command `news(package = “asremlPlus”)`. For an overview enter `?asremlPlus`. Otherwise, you could consult the manual using `vignette("Manual", package = "asremlPlus")`. Also available is a vignette describing how to use `asremlPlus` to analyse a wheat experiment that involves spatial variation (`vignette("Wheat", package = "asremlPlus")`) and another that focusses on predictions for a three-factor Ladybird experiment (`vignette("Ladybird", package = "asremlPlus")`).  
 
-Windows binary r-release: [asremlPlus_4.1-27.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/asremlPlus_4.1-27.zip);  Windows binary r-oldrel: [asremlPlus_4.1-27.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.1-27.zip);  Package source: [asremlPlus_4.1-27.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-27.tar.gz).
+Windows binary R 3.6: [asremlPlus_4.1-28.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/asremlPlus_4.1-28.zip);  Windows binary R 3.5: [asremlPlus_4.1-28.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.1-28.zip);  Package source: [asremlPlus_4.1-28.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-28.tar.gz).
 
 The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.1-26, is not updated as frequently as the version here or on GitHub. 
 
 The final version of `asremlPlus` that was produced specifically for ASReml-R version 3 is version 2.0-13.  It is no longer being developed. A version of `asremlPlus` 2.0-13 built for R 3.5.0 is available as `asreml3Plus`  version 2.0-14; that is, to load this version, a `3` must be included in the package name. 
 
-Windows binary r-oldrel: [asreml3Plus_2.0-14.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asreml3Plus_2.0-14.zip);  Package source: [asreml3Plus_2.0-14.tar.gz](http://briencj.github.io/drat/src/contrib/asreml3Plus_2.0-14.tar.gz) (built under R 3.5.0).
+Windows binary R 3.5: [asreml3Plus_2.0-14.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asreml3Plus_2.0-14.zip);  Package source: [asreml3Plus_2.0-14.tar.gz](http://briencj.github.io/drat/src/contrib/asreml3Plus_2.0-14.tar.gz) (built under R 3.5.0).
 
 Windows binary: [asremlPlus_2.0-13.zip](http://briencj.github.io/drat/bin/windows/contrib/3.4/asremlPlus_2.0-13.zip);  Package source: [asremlPlus_2.0-13.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_2.0-13.tar.gz).
 
@@ -61,7 +61,7 @@ Windows binary: [asremlPlus_2.0-13.zip](http://briencj.github.io/drat/bin/window
 
 The `dae` package of R functions has been developed to facilitate the use of R for the design and analysis of variance of experiments; these days the emphasis is on design. It is described in the manual, which can be found using `vignette("Manual", package = "dae")`. Also found using `vignette("DesignNotes", package = "dae")` is a vignette describing how to use `designRandomize` to produce randomized layouts for experiments and `designAnatomy` to assessing the properties of designs. It covers both standard and multiphase experimental designs. The data sets that go with the vignette are available in `dae`.
 
-Windows binary r-release: [dae_3.0-32.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/dae_3.0-32.zip);  Windows binary r-oldrel: [dae_3.0-32.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/dae_3.0-32.zip);  Package source: [dae_3.0-32.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.0-32.tar.gz).
+Windows binary R 3.6: [dae_3.0-32.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/dae_3.0-32.zip);  Windows binary R 3.5: [dae_3.0-32.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/dae_3.0-32.zip);  Package source: [dae_3.0-32.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.0-32.tar.gz).
 
 The package is also available from CRAN at <https://cran.r-project.org/package=dae> and from the Github repo at <https://github.com/briencj/dae>. However, the CRAN version, currently 3.0-23, is not updated as frequently as the version here or on GitHub.  
 
@@ -70,7 +70,7 @@ The package is also available from CRAN at <https://cran.r-project.org/package=d
 
 The `growthPheno` package is a collection of R functions that can be used to plot, smooth and extract growth traits for longitudinal data. It is described in growthPheno-manual.pdf, which can be found using `vignette("Manual", package = "growthPheno")`. An overview can be obtained using `?growthPheno`. Many of the functions can be applied to longitudinal data in general.
 
-Windows binary r-release: [growthPheno_1.0-14.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/growthPheno_1.0-14.zip);  Windows binary r-oldrel: [growthPheno_1.0-14.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/growthPheno_1.0-14.zip);  Package source: [growthPheno_1.0-14.tar.gz](http://briencj.github.io/drat/src/contrib/growthPheno_1.0-14.tar.gz).
+Windows binary R 3.6: [growthPheno_1.0-14.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/growthPheno_1.0-14.zip);  Windows binary R 3.5: [growthPheno_1.0-14.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/growthPheno_1.0-14.zip);  Package source: [growthPheno_1.0-14.tar.gz](http://briencj.github.io/drat/src/contrib/growthPheno_1.0-14.tar.gz).
 
 The package is also available from CRAN: <https://cran.r-project.org/package=growthPheno>. However, the CRAN version, currently 1.0-13, is not updated as frequently as the version here.
 
@@ -82,7 +82,7 @@ This package has been superseded by `growthPheno` and is no longer maintained, b
 
 The `imageData` package is a collection of R functions that aids in processing and plotting data from a Lemna-Tec Scananalyzer. It is described in imageData-manual.pdf, which can be found using `vignette("Manual", package = "imageData")`. An overview can be obtained using `?imageData`. The functions can be applied selectively to longitudinal data in general.
 
-Windows binary r-release: [imageData_0.1-59.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/imageData_0.1-59.zip);  Windows binary r-oldrel: [imageData_0.1-59.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/imageData_0.1-59.zip);  Package source: [imageData_0.1-59.tar.gz](http://briencj.github.io/drat/src/contrib/imageData_0.1-59.tar.gz).
+Windows binary R 3.6: [imageData_0.1-59.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/imageData_0.1-59.zip);  Windows binary R 3.5: [imageData_0.1-59.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/imageData_0.1-59.zip);  Package source: [imageData_0.1-59.tar.gz](http://briencj.github.io/drat/src/contrib/imageData_0.1-59.tar.gz).
 
 The package is also available from CRAN: <https://cran.r-project.org/package=imageData>.
 
