@@ -9,14 +9,14 @@ MD5sum: da49e8327634657747407252ef31b136
 NeedsCompilation: no
 
 Package: asremlPlus
-Version: 4.1-30
+Version: 4.1-31
 Depends: R (>= 3.1.0)
 Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
-          RColorBrewer, grDevices, foreach, parallel, doParallel
+         RColorBrewer, grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
-MD5sum: 3c891f190dae3e6e04e424d04fbe2eaf
+MD5sum: 6a943d30fb09dfb29feae8625c2633ad
 NeedsCompilation: no
 
 Package: dae
