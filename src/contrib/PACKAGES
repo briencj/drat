@@ -20,12 +20,12 @@ MD5sum: 6a943d30fb09dfb29feae8625c2633ad
 NeedsCompilation: no
 
 Package: dae
-Version: 3.0-32
-Depends: R (>= 3.1.0), ggplot2
+Version: 3.1-10
+Depends: R (>= 3.5.0), ggplot2
 Imports: graphics, methods, plyr, stats
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
-MD5sum: 8727dd9eeb64ee29197ba070eed45382
+MD5sum: 79d787658f4c349ab8df88d5ad18cb5d
 NeedsCompilation: no
 
 Package: growthPheno
