@@ -20,19 +20,18 @@ MD5sum: 04a6368ce0f69ea751ae34ae9a9c32cc
 NeedsCompilation: no
 
 Package: dae
-Version: 3.1-14
+Version: 3.1-16
 Depends: R (>= 3.5.0), ggplot2
 Imports: graphics, methods, plyr, stats
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
-MD5sum: e0387085d4f0cdb1b3e49955bfe670a0
+MD5sum: 4f6ab01750d6888e52d7aeabb2b5bf87
 NeedsCompilation: no
 
 Package: growthPheno
 Version: 1.0-18
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
-         grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: d1d676c044a16089936c631dc918fb04
@@ -41,8 +40,7 @@ NeedsCompilation: no
 Package: imageData
 Version: 0.1-59
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
-         grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: 4fc0b4f956f7f9dd1ed97e9c44fb5668
