@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -268,7 +269,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -341,18 +341,6 @@ summary {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -432,9 +420,9 @@ $(document).ready(function () {
 </div>
 <div id="gpheno" class="section level2">
 <h2><code>growthPheno</code></h2>
-<p><em>(last updated 30th September 2019)</em></p>
+<p><em>(last updated 28th November 2019)</em></p>
 <p>The <code>growthPheno</code> package is a collection of R functions that can be used to plot, smooth and extract growth traits for longitudinal data. It is described in growthPheno-manual.pdf, which can be found using <code>vignette(&quot;Manual&quot;, package = &quot;growthPheno&quot;)</code>. An overview can be obtained using <code>?growthPheno</code>. Many of the functions can be applied to longitudinal data in general.</p>
-<p>Windows binary R 3.6: <a href="http://briencj.github.io/drat/bin/windows/contrib/3.6/growthPheno_1.0-18.zip">growthPheno_1.0-18.zip</a>; Windows binary R 3.5: <a href="http://briencj.github.io/drat/bin/windows/contrib/3.5/growthPheno_1.0-18.zip">growthPheno_1.0-18.zip</a>; Package source: <a href="http://briencj.github.io/drat/src/contrib/growthPheno_1.0-18.tar.gz">growthPheno_1.0-18.tar.gz</a>.</p>
+<p>Windows binary R 3.6: <a href="http://briencj.github.io/drat/bin/windows/contrib/3.6/growthPheno_1.0-19.zip">growthPheno_1.0-19.zip</a>; Windows binary R 3.5: <a href="http://briencj.github.io/drat/bin/windows/contrib/3.5/growthPheno_1.0-19.zip">growthPheno_1.0-19.zip</a>; Package source: <a href="http://briencj.github.io/drat/src/contrib/growthPheno_1.0-19.tar.gz">growthPheno_1.0-19.tar.gz</a>.</p>
 <p>The package is also available from CRAN: <a href="https://cran.r-project.org/package=growthPheno" class="uri">https://cran.r-project.org/package=growthPheno</a>. However, the CRAN version, currently 1.0-15, is not updated as frequently as the version here.</p>
 </div>
 <div id="idata" class="section level2">
@@ -464,6 +452,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

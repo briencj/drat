@@ -66,11 +66,11 @@ Windows binary R 3.6: [dae_3.1-17.zip](http://briencj.github.io/drat/bin/windows
 The package is also available from CRAN at <https://cran.r-project.org/package=dae> and from the Github repo at <https://github.com/briencj/dae>. However, the CRAN version, currently 3.1-16, is not updated as frequently as the version here or on GitHub.  
 
 ## `growthPheno` {#gpheno}
-*(last updated 30th September 2019)*
+*(last updated 28th November 2019)*
 
 The `growthPheno` package is a collection of R functions that can be used to plot, smooth and extract growth traits for longitudinal data. It is described in growthPheno-manual.pdf, which can be found using `vignette("Manual", package = "growthPheno")`. An overview can be obtained using `?growthPheno`. Many of the functions can be applied to longitudinal data in general.
 
-Windows binary R 3.6: [growthPheno_1.0-18.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/growthPheno_1.0-18.zip);  Windows binary R 3.5: [growthPheno_1.0-18.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/growthPheno_1.0-18.zip);  Package source: [growthPheno_1.0-18.tar.gz](http://briencj.github.io/drat/src/contrib/growthPheno_1.0-18.tar.gz).
+Windows binary R 3.6: [growthPheno_1.0-19.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/growthPheno_1.0-19.zip);  Windows binary R 3.5: [growthPheno_1.0-19.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/growthPheno_1.0-19.zip);  Package source: [growthPheno_1.0-19.tar.gz](http://briencj.github.io/drat/src/contrib/growthPheno_1.0-19.tar.gz).
 
 The package is also available from CRAN: <https://cran.r-project.org/package=growthPheno>. However, the CRAN version, currently 1.0-15, is not updated as frequently as the version here.
 

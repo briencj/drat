@@ -15,9 +15,9 @@ Suggests: testthat, R.rsp
 License: GPL (>= 2)
 
 Package: growthPheno
-Version: 1.0-18
+Version: 1.0-19
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, readxl, Hmisc, GGally, RColorBrewer, reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 

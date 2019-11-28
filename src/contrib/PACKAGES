@@ -29,12 +29,12 @@ MD5sum: bde59bd05e708e8551a5d16083b64c8f
 NeedsCompilation: no
 
 Package: growthPheno
-Version: 1.0-18
+Version: 1.0-19
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, readxl, Hmisc, GGally, RColorBrewer, reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
-MD5sum: d1d676c044a16089936c631dc918fb04
+MD5sum: dc997b45fd72df49bbaf480d896b1c84
 NeedsCompilation: no
 
 Package: imageData
