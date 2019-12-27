@@ -29,13 +29,13 @@ Download either the Windows binary or the source file for a package, using the l
 
 ## The packages available
 
-* [`asremlPlus`](#aplus) - augments `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences.
+* [`asremlPlus 4.1-34`](#aplus) - augments `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences.
 
-* [`dae`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
+* [`dae 3.1-18`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
 
-* [`growthPheno`](#gpheno) - plotting, smoothing and growth trait extraction for longitudinal data.
+* [`growthPheno 1.0-19`](#gpheno) - plotting, smoothing and growth trait extraction for longitudinal data.
 
-* [`imageData`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer.
+* [`imageData 0.1-59`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer.
 
 ### `asremlPlus` {#aplus}
 *(last updated 14th December 2019)*
@@ -61,7 +61,7 @@ Windows binary: [asremlPlus_2.0-13.zip](http://briencj.github.io/drat/bin/window
 
 The `dae` package of R functions has been developed to facilitate the use of R for the design and analysis of variance of experiments; these days the emphasis is on design. It is described in the manual, which can be found using `vignette("Manual", package = "dae")`. Also found using `vignette("DesignNotes", package = "dae")` is a vignette describing how to use `designRandomize` to produce randomized layouts for experiments and `designAnatomy` to assessing the properties of designs. It covers both standard and multiphase experimental designs. The data sets that go with the vignette are available in `dae`.
 
-Windows binary R 3.6: [dae_3.1-17.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/dae_3.1-17.zip);  Windows binary R 3.5: [dae_3.1-17.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/dae_3.1-17.zip);  Package source: [dae_3.1-17.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.1-17.tar.gz).
+Windows binary R 3.6: [dae_3.1-18.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/dae_3.1-18.zip);  Windows binary R 3.5: [dae_3.1-18.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/dae_3.1-18.zip);  Package source: [dae_3.1-18.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.1-18.tar.gz).
 
 The package is also available from CRAN at <https://cran.r-project.org/package=dae> and from the Github repo at <https://github.com/briencj/dae>. However, the CRAN version, currently 3.1-16, is not updated as frequently as the version here or on GitHub.  
 
