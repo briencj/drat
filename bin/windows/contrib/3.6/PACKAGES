@@ -15,7 +15,7 @@ Suggests: testthat, R.rsp
 License: GPL (>= 2)
 
 Package: growthPheno
-Version: 1.0-19
+Version: 1.0-20
 Depends: R (>= 3.5.0)
 Imports: dae, ggplot2, stats, readxl, Hmisc, GGally, RColorBrewer, reshape, grid
 Suggests: testthat, R.rsp
@@ -24,6 +24,7 @@ License: GPL (>= 2)
 Package: imageData
 Version: 0.1-59
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
