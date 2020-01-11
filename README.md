@@ -29,16 +29,16 @@ Download either the Windows binary or the source file for a package, using the l
 
 ## The packages available
 
-* [`asremlPlus 4.1-34`](#aplus) - augments `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences.
+* [`asremlPlus 4.1-35`](#aplus) - augments `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences.
 
-* [`dae 3.1-19`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
+* [`dae 3.1-20`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
 
 * [`growthPheno 1.0-20`](#gpheno) - plotting, smoothing and growth trait extraction for longitudinal data.
 
 * [`imageData 0.1-59`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer.
 
 ### `asremlPlus` {#aplus}
-*(last updated 14th December 2019)*
+*(last updated 11th January 2020)*
 
 The `asremlPlus` package is a collection of R functions to augment `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences. The current version  is compatible with both `ASReml-R` versions 3 and 4.1, but not 4.0. Its `alldiffs` and `data.frame` methods can be applied to objects produced with other mixed modelling software.
 
@@ -46,9 +46,9 @@ Versions 4.x-xx of `asremlPlus` are a major revamp of the package and include su
 
 For more information, install the package and run the R command `news(package = “asremlPlus”)`. For an overview enter `?asremlPlus`. Otherwise, you could consult the manual using `vignette("Manual", package = "asremlPlus")`. Also available is a vignette describing how to use `asremlPlus` to analyse a wheat experiment that involves spatial variation (`vignette("Wheat", package = "asremlPlus")`) and another that focusses on predictions for a three-factor Ladybird experiment (`vignette("Ladybird", package = "asremlPlus")`).  
 
-Windows binary R 3.6: [asremlPlus_4.1-34.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/asremlPlus_4.1-34.zip);  Windows binary R 3.5: [asremlPlus_4.1-34.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.1-34.zip);  Package source: [asremlPlus_4.1-34.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-34.tar.gz).
+Windows binary R 3.6: [asremlPlus_4.1-35.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/asremlPlus_4.1-35.zip);  Windows binary R 3.5: [asremlPlus_4.1-35.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.1-35.zip);  Package source: [asremlPlus_4.1-35.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-35.tar.gz).
 
-The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.1-26, is not updated as frequently as the version here or on GitHub. 
+The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.1-35, is not updated as frequently as the version here or on GitHub. 
 
 The final version of `asremlPlus` that was produced specifically for ASReml-R version 3 is version 2.0-13.  It is no longer being developed. A version of `asremlPlus` 2.0-13 built for R 3.5.0 is available as `asreml3Plus`  version 2.0-14; that is, to load this version, a `3` must be included in the package name. 
 
@@ -57,13 +57,13 @@ Windows binary R 3.5: [asreml3Plus_2.0-14.zip](http://briencj.github.io/drat/bin
 Windows binary: [asremlPlus_2.0-13.zip](http://briencj.github.io/drat/bin/windows/contrib/3.4/asremlPlus_2.0-13.zip);  Package source: [asremlPlus_2.0-13.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_2.0-13.tar.gz).
 
 ### `dae` {#dae}
-*(last updated 3oth December 2019)*
+*(last updated 11th January 2020)*
 
 The `dae` package of R functions has been developed to facilitate the use of R for the design and analysis of variance of experiments; these days the emphasis is on design. It is described in the manual, which can be found using `vignette("Manual", package = "dae")`. Also found using `vignette("DesignNotes", package = "dae")` is a vignette describing how to use `designRandomize` to produce randomized layouts for experiments and `designAnatomy` to assessing the properties of designs. It covers both standard and multiphase experimental designs. The data sets that go with the vignette are available in `dae`.
 
-Windows binary R 3.6: [dae_3.1-19.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/dae_3.1-19.zip);  Windows binary R 3.5: [dae_3.1-19.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/dae_3.1-19.zip);  Package source: [dae_3.1-19.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.1-19.tar.gz).
+Windows binary R 3.6: [dae_3.1-20.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/dae_3.1-20.zip);  Windows binary R 3.5: [dae_3.1-20.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/dae_3.1-20.zip);  Package source: [dae_3.1-20.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.1-20.tar.gz).
 
-The package is also available from CRAN at <https://cran.r-project.org/package=dae> and from the Github repo at <https://github.com/briencj/dae>. However, the CRAN version, currently 3.1-16, is not updated as frequently as the version here or on GitHub.  
+The package is also available from CRAN at <https://cran.r-project.org/package=dae> and from the Github repo at <https://github.com/briencj/dae>. However, the CRAN version, currently 3.1-20, is not updated as frequently as the version here or on GitHub.  
 
 ## `growthPheno` {#gpheno}
 *(last updated 8th January 2020)*

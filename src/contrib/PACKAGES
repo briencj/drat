@@ -9,23 +9,23 @@ MD5sum: da49e8327634657747407252ef31b136
 NeedsCompilation: no
 
 Package: asremlPlus
-Version: 4.1-34
+Version: 4.1-35
 Depends: R (>= 3.1.0)
 Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
          RColorBrewer, grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
-MD5sum: e854847ed872b29f41480edf1734ba30
+MD5sum: 2b354fbcae7ae07818335c29d9e83580
 NeedsCompilation: no
 
 Package: dae
-Version: 3.1-19
+Version: 3.1-20
 Depends: R (>= 3.5.0), ggplot2
 Imports: graphics, methods, plyr, stats
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
-MD5sum: 2aee28382aee9b181542df771a7a41fe
+MD5sum: 40bfa59679d86fc202baed213b514550
 NeedsCompilation: no
 
 Package: growthPheno
@@ -40,7 +40,8 @@ NeedsCompilation: no
 Package: imageData
 Version: 0.1-59
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: 4fc0b4f956f7f9dd1ed97e9c44fb5668
