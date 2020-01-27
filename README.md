@@ -1,3 +1,8 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 # Repository for the most recent versions of packages maintained by Chris Brien
 
 Email: <Chris.Brien@unisa.edu.au>
@@ -44,7 +49,7 @@ The `asremlPlus` package is a collection of R functions to augment `ASReml-R` in
 
 Versions 4.x-xx of `asremlPlus` are a major revamp of the package and include substantial syntax changes. In particular, most functions are S3 methods and so the object supplied for the first argument must be of the class (the name after the last full stop in the function name) for which the function is a method and the class of the object can be omitted from the function name when calling the function. For example, `plotPredictions.data.frame` is a `plotPredictions` method for a `data.frame` and can be called using just `plotPredictions`; the object supplied to `data` must be a `data.frame`.
 
-For more information, install the package and run the R command `news(package = “asremlPlus”)`. For an overview enter `?asremlPlus`. Otherwise, you could consult the manual using `vignette("Manual", package = "asremlPlus")`. Also available is a vignette describing how to use `asremlPlus` to analyse a wheat experiment that involves spatial variation (`vignette("Wheat", package = "asremlPlus")`) and another that focusses on predictions for a three-factor Ladybird experiment (`vignette("Ladybird", package = "asremlPlus")`).  
+For more information, install the package and run the R command `news(package = “asremlPlus”)`. For an overview enter `?asremlPlus`. Otherwise, you could consult the manual using `vignette("Manual", package = "asremlPlus")`. Also available is a vignette describing how to use `asremlPlus` to chose a linear mixed model to describe a wheat experiment that involves spatial variation (`vignette("Wheat", package = "asremlPlus")`). Two further vignettes show how to use asremlPlus for exploring and presenting predictions from a linear mixed model analysis in the context of a three-factor factorial experiment on ladybirds: one vignette uses `asreml` to produce the predictions and is available via `vignette("Ladybird.asreml", package = "asremlPlus")`; the other vignette uses `lm` to produce the predictions and is available via `vignette("Ladybird.lm", package = "asremlPlus")`.
 
 Windows binary R 3.6: [asremlPlus_4.1-37.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/asremlPlus_4.1-37.zip);  Windows binary R 3.5: [asremlPlus_4.1-37.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.1-37.zip);  Package source: [asremlPlus_4.1-37.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.1-37.tar.gz).
 
