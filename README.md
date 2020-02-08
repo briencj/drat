@@ -34,7 +34,7 @@ Download either the Windows binary or the source file for a package, using the l
 
 ## The packages available
 
-* [`asremlPlus 4.2-10`](#aplus) - augments `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences.
+* [`asremlPlus 4.2-11`](#aplus) - augments `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences.
 
 * [`dae 3.1-22`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
 
@@ -43,15 +43,15 @@ Download either the Windows binary or the source file for a package, using the l
 * [`imageData 0.1-59`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer.
 
 ### `asremlPlus` {#aplus}
-*(last updated 7th February 2020)*
+*(last updated 8th February 2020)*
 
 The `asremlPlus` package is a collection of R functions to augment `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences. The current version  is compatible with both `ASReml-R` versions 3 and 4.1, but not 4.0. Its `alldiffs` and `data.frame` methods can be applied to objects produced with other mixed modelling software.
 
 Versions 4.x-xx of `asremlPlus` are a major revamp of the package and include substantial syntax changes. In particular, most functions are S3 methods and so the object supplied for the first argument must be of the class (the name after the last full stop in the function name) for which the function is a method and the class of the object can be omitted from the function name when calling the function. For example, `plotPredictions.data.frame` is a `plotPredictions` method for a `data.frame` and can be called using just `plotPredictions`; the object supplied to `data` must be a `data.frame`.
 
-For more information, install the package and run the R command `news(package = “asremlPlus”)`. For an overview enter `?asremlPlus`. Otherwise, you could consult the manual using `vignette("Manual", package = "asremlPlus")`. Also available is a vignette describing how to use `asremlPlus` to chose a linear mixed model to describe a wheat experiment that involves spatial variation (`vignette("Wheat", package = "asremlPlus")`). Two further vignettes show how to use asremlPlus for exploring and presenting predictions from a linear mixed model analysis in the context of a three-factor factorial experiment on ladybirds: one vignette uses `asreml` to produce the predictions and is available via `vignette("Ladybird.asreml", package = "asremlPlus")`; the other vignette uses `lm` to produce the predictions and is available via `vignette("Ladybird.lm", package = "asremlPlus")`.
+For more information, install the package and run the R command `news(package = “asremlPlus”)`. For an overview enter `?asremlPlus`. Otherwise, you could consult the manual using `vignette("Manual", package = "asremlPlus")`. Also available is the [Wheat.analysis vignette](./vignettes/Wheat.analysis.pdf) that shows how to select the terms to be included in a mixed model for an experiment that involves spatial variation; it also illustrates diagnostic checking and prediction production and presentation for this example. A second vignette is the [Wheat.infoCriteria vignette](./vignettes/Wheat.infoCriteria.pdf) that illustrates the facilities in `asremlPlus` for producing and using information criteria. Two further vignettes show how to use `asremlPlus` for exploring and presenting predictions from a linear mixed model analysis in the context of a three-factor factorial experiment on ladybirds: one vignette, [Ladybird.asreml vignette](./vignettes/Ladybird.asreml.pdf), uses `asreml` and `asremlPlus` to produce and present  predictions; the other vignette, [Ladybird.lm vignette](./vignettes/Ladybird.asreml.pdf), uses `lm` to produce the predictions and `asremlPlus` to present the predictions. The vignettes can be accessed via `vignette(name, package = "asremlPlus")`, where `name` is one of `"Wheat.analysis"`, `"Wheat.infoCriteria"`, `"Ladybird.asreml"` or `"Ladybird.lm"`.
 
-Windows binary R 3.6: [asremlPlus_4.2-10.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/asremlPlus_4.2-10.zip);  Windows binary R 3.5: [asremlPlus_4.2-10.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.2-10.zip);  Package source: [asremlPlus_4.2-10.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.2-10.tar.gz).
+Windows binary R 3.6: [asremlPlus_4.2-11.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/asremlPlus_4.2-11.zip);  Windows binary R 3.5: [asremlPlus_4.2-11.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.2-11.zip);  Package source: [asremlPlus_4.2-11.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.2-11.tar.gz).
 
 The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.1-36, is not updated as frequently as the version here or on GitHub. 
 
