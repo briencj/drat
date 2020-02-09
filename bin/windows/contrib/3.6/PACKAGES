@@ -1,8 +1,8 @@
 Package: asremlPlus
-Version: 4.2-11
+Version: 4.2-12
 Depends: R (>= 3.5.0)
 Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
-        RColorBrewer, grDevices, foreach, parallel, doParallel
+         RColorBrewer, grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -17,8 +17,7 @@ License: GPL (>= 2)
 Package: growthPheno
 Version: 1.0-21
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, readxl, Hmisc, GGally, RColorBrewer, reshape,
-        grid
+Imports: dae, ggplot2, stats, readxl, Hmisc, GGally, RColorBrewer, reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 
@@ -26,6 +25,6 @@ Package: imageData
 Version: 0.1-59
 Depends: R (>= 3.1.0)
 Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
-        grid
+         grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
