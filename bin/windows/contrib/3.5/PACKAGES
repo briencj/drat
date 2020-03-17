@@ -7,7 +7,7 @@ Enhances: asreml
 License: GPL (>= 2)
 
 Package: asremlPlus
-Version: 4.2-16
+Version: 4.2-18
 Depends: R (>= 3.5.0)
 Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
          RColorBrewer, grDevices, foreach, parallel, doParallel
@@ -16,7 +16,7 @@ Enhances: asreml
 License: MIT + file LICENSE
 
 Package: dae
-Version: 3.1-22
+Version: 3.1-23
 Depends: R (>= 3.5.0), ggplot2
 Imports: graphics, methods, plyr, stats
 Suggests: testthat, R.rsp

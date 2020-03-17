@@ -34,16 +34,16 @@ Download either the Windows binary or the source file for a package, using the l
 
 ## The packages available
 
-* [`asremlPlus 4.2-16`](#aplus) - augments `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences.
+* [`asremlPlus 4.2-18`](#aplus) - augments `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences.
 
-* [`dae 3.1-22`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
+* [`dae 3.1-23`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
 
 * [`growthPheno 1.0-21`](#gpheno) - plotting, smoothing and growth trait extraction for longitudinal data.
 
 * [`imageData 0.1-59`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer.
 
 ### `asremlPlus` {#aplus}
-*(last updated 25th February 2020)*
+*(last updated 17th March 2020)*
 
 The `asremlPlus` package is a collection of R functions to augment `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences. The current version  is compatible with both `ASReml-R` versions 3 and 4.1, but not 4.0. Its `alldiffs` and `data.frame` methods can be applied to objects produced with other mixed modelling software.
 
@@ -51,9 +51,9 @@ Versions 4.x-xx of `asremlPlus` are a major revamp of the package and include su
 
 For more information, install the package and run the R command `news(package = “asremlPlus”)`. For an overview enter `?asremlPlus`. Otherwise, you could consult the manual using `vignette("Manual", package = "asremlPlus")`. Also available is the Wheat.analysis vignette [`vignette("Wheat.analysis", package = "asremlPlus")`] that shows how to select the terms to be included in a mixed model for an experiment that involves spatial variation; it also illustrates diagnostic checking and prediction production and presentation for this example. A second vignette is the Wheat.infoCriteria vignette [`vignette("Wheat.infoCriteria", package = "asremlPlus")`] that illustrates the facilities in `asremlPlus` for producing and using information criteria. Two further vignettes show how to use `asremlPlus` for exploring and presenting predictions from a linear mixed model analysis in the context of a three-factor factorial experiment on ladybirds: one vignette, Ladybird.asreml vignette [`vignette("Ladybird.asreml", package = "asremlPlus")`], uses `asreml` and `asremlPlus` to produce and present  predictions; the other vignette, Ladybird.lm vignette [`vignette("Ladybird.lm", package = "asremlPlus")`], uses `lm` to produce the predictions and `asremlPlus` to present the predictions..
 
-Windows binary R 3.6: [asremlPlus_4.2-16.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/asremlPlus_4.2-16.zip);  Windows binary R 3.5: [asremlPlus_4.2-16.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.2-16.zip);  Package source: [asremlPlus_4.2-16.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.2-16.tar.gz).
+Windows binary R 3.6: [asremlPlus_4.2-18.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/asremlPlus_4.2-18.zip);  Windows binary R 3.5: [asremlPlus_4.2-18.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/asremlPlus_4.2-18.zip);  Package source: [asremlPlus_4.2-18.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.2-18.tar.gz).
 
-The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.1-36, is not updated as frequently as the version here or on GitHub. 
+The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.2-18, is not updated as frequently as the version here or on GitHub. 
 
 The final version of `asremlPlus` that was produced specifically for ASReml-R version 3 is version 2.0-13.  It is no longer being developed. A version of `asremlPlus` 2.0-13 built for R 3.5.0 is available as `asreml3Plus`  version 2.0-14; that is, to load this version, a `3` must be included in the package name. 
 
@@ -62,23 +62,26 @@ Windows binary R 3.5: [asreml3Plus_2.0-14.zip](http://briencj.github.io/drat/bin
 Windows binary: [asremlPlus_2.0-13.zip](http://briencj.github.io/drat/bin/windows/contrib/3.4/asremlPlus_2.0-13.zip);  Package source: [asremlPlus_2.0-13.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_2.0-13.tar.gz).
 
 ### `dae` {#dae}
-*(last updated 16th January 2020)*
+*(last updated 17th March 2020)*
 
 The `dae` package of R functions has been developed to facilitate the use of R for the design and analysis of variance of experiments; these days the emphasis is on design. It is described in the manual, which can be found using `vignette("Manual", package = "dae")`. Also found using `vignette("DesignNotes", package = "dae")` is a vignette describing how to use `designRandomize` to produce randomized layouts for experiments and `designAnatomy` to assessing the properties of designs. It covers both standard and multiphase experimental designs. The data sets that go with the vignette are available in `dae`.
 
-Windows binary R 3.6: [dae_3.1-22.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/dae_3.1-22.zip);  Windows binary R 3.5: [dae_3.1-22.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/dae_3.1-22.zip);  Package source: [dae_3.1-22.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.1-22.tar.gz).
+Windows binary R 3.6: [dae_3.1-23.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/dae_3.1-23.zip);  Windows binary R 3.5: [dae_3.1-23.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/dae_3.1-23.zip);  Package source: [dae_3.1-23.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.1-23.tar.gz).
 
-The package is also available from CRAN at <https://cran.r-project.org/package=dae> and from the Github repo at <https://github.com/briencj/dae>. However, the CRAN version, currently 3.1-21, is not updated as frequently as the version here or on GitHub.  
+The package is also available from CRAN at <https://cran.r-project.org/package=dae> and from the Github repo at <https://github.com/briencj/dae>. However, the CRAN version, currently 3.1-23, is not updated as frequently as the version here or on GitHub.  
 
 ## `growthPheno` {#gpheno}
 *(last updated 12th January 2020)*
 
-The `growthPheno` package is a collection of R functions that can be used to plot, smooth and extract growth traits for longitudinal data. It is described in growthPheno-manual.pdf, which can be found using `vignette("Manual", package = "growthPheno")`. An overview can be obtained using `?growthPheno`. Many of the functions can be applied to longitudinal data in general.
+The `growthPheno` package is a collection of R functions that can be used to plot, smooth and extract growth traits for longitudinal data, as described by Brien et al. (2020). It is described in growthPheno-manual.pdf, which can be found using `vignette("Manual", package = "growthPheno")`. An overview can be obtained using `?growthPheno`. Two vignettes, `Tomato` and `Rice`, illustrate the process for smoothing and extraction of traits (SET), the former being the example presented in Brien et al. (2020). Use `vignette("Tomato", package = "growthPheno")` or `vignette("Rice", package = "growthPheno")` to access either of the vignettes. Many of the functions can be applied to longitudinal data in general.
 
 Windows binary R 3.6: [growthPheno_1.0-21.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/growthPheno_1.0-21.zip);  Windows binary R 3.5: [growthPheno_1.0-21.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/growthPheno_1.0-21.zip);  Package source: [growthPheno_1.0-21.tar.gz](http://briencj.github.io/drat/src/contrib/growthPheno_1.0-21.tar.gz).
 
 The package is also available from CRAN: <https://cran.r-project.org/package=growthPheno>. However, the CRAN version, currently 1.0-15, is not updated as frequently as the version here.
 
+#### Reference
+
+Brien, C., Jewell, N., Garnett, T., Watts-Williams, S. J., & Berger, B. (2020). Smoothing and extraction of traits in the growth analysis of noninvasive phenotypic data. *Plant Methods*, **16**, 36. <http://dx.doi.org/10.1186/s13007-020-00577-6>.
 
 ## `imageData` {#idata}
 *(last updated 23rd June 2019)*
