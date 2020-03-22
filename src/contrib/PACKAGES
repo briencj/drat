@@ -45,5 +45,5 @@ Imports: dae, ggplot2, stats, readxl, Hmisc, GGally, RColorBrewer, reshape,
         grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
-MD5sum: f3c898bbd7ff656595276a17ef250fa6
+MD5sum: 347278e4a410ea02b903026f6428d7f3
 NeedsCompilation: no
