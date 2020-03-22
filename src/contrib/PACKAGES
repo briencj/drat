@@ -38,10 +38,10 @@ MD5sum: e737a1205fefacd092fea74dc2c432c2
 NeedsCompilation: no
 
 Package: imageData
-Version: 0.1-59
+Version: 0.1-60
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, readxl, Hmisc, GGally, RColorBrewer, reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
-MD5sum: 4fc0b4f956f7f9dd1ed97e9c44fb5668
+MD5sum: edd60aa6870af3bfb775f223bfaf6685
 NeedsCompilation: no
