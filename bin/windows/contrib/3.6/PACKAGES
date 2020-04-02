@@ -1,5 +1,5 @@
 Package: asremlPlus
-Version: 4.2-18
+Version: 4.2-19
 Depends: R (>= 3.5.0)
 Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
          RColorBrewer, grDevices, foreach, parallel, doParallel
