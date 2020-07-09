@@ -76,7 +76,7 @@ The package is also available from CRAN at <https://cran.r-project.org/package=d
 
 The `growthPheno` package is a collection of R functions that can be used to plot, smooth and extract growth traits for longitudinal data, as described by Brien et al. (2020). It is described in growthPheno-manual.pdf, which can be found using `vignette("Manual", package = "growthPheno")`. An overview can be obtained using `?growthPheno`. Two vignettes, `Tomato` and `Rice`, illustrate the process for smoothing and extraction of traits (SET), the former being the example presented in Brien et al. (2020). Use `vignette("Tomato", package = "growthPheno")` or `vignette("Rice", package = "growthPheno")` to access either of the vignettes. Many of the functions can be applied to longitudinal data in general.
 
-Windows binary R 4.0: [growthPheno_1.0-26.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/growthPheno_1.0-26.zip); Windows binary R 3.6: [growthPheno_1.0-26.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/growthPheno_1.0-26.zip);   Package source: [growthPheno_1.0-26.tar.gz](http://briencj.github.io/drat/src/contrib/growthPheno_1.0-26.tar.gz).
+Windows binary R 4.0: [growthPheno_1.0-26.zip](http://briencj.github.io/drat/bin/windows/contrib/4.0/growthPheno_1.0-26.zip); Windows binary R 3.6: [growthPheno_1.0-26.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/growthPheno_1.0-26.zip);   Package source: [growthPheno_1.0-26.tar.gz](http://briencj.github.io/drat/src/contrib/growthPheno_1.0-26.tar.gz).
 
 The package is also available from CRAN: <https://cran.r-project.org/package=growthPheno>. However, the CRAN version, currently 1.0-22, is not updated as frequently as the version here.
 
