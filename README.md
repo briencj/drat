@@ -6,7 +6,7 @@ output:
 ---
 
 
-Email: <Chris.Brien@unisa.edu.au>
+Email: <chris.brien@adelaide.edu.au>
 URL: <http://chris.brien.name>
 
 ## Installing a package from here
@@ -69,7 +69,7 @@ The `dae` package of R functions has been developed to facilitate the use of R f
 
 Windows binary R 4.0: [dae_3.1-27.zip](http://briencj.github.io/drat/bin/windows/contrib/4.0/dae_3.1-27.zip);  Windows binary R 3.6: [dae_3.1-27.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/dae_3.1-27.zip);  Package source: [dae_3.1-27.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.1-27.tar.gz).
 
-The package is also available from CRAN at <https://cran.r-project.org/package=dae> and from the Github repo at <https://github.com/briencj/dae>. However, the CRAN version, currently 3.1-23, is not updated as frequently as the version here or on GitHub.  
+The package is also available from CRAN at <https://cran.r-project.org/package=dae> and from the Github repo at <https://github.com/briencj/dae>. However, the CRAN version, currently 3.1-27, is not updated as frequently as the version here or on GitHub.  
 
 ## `growthPheno` {#gpheno}
 *(last updated 9th July 2020)*
@@ -78,7 +78,7 @@ The `growthPheno` package is a collection of R functions that can be used to plo
 
 Windows binary R 4.0: [growthPheno_1.0-26.zip](http://briencj.github.io/drat/bin/windows/contrib/4.0/growthPheno_1.0-26.zip); Windows binary R 3.6: [growthPheno_1.0-26.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/growthPheno_1.0-26.zip);   Package source: [growthPheno_1.0-26.tar.gz](http://briencj.github.io/drat/src/contrib/growthPheno_1.0-26.tar.gz).
 
-The package is also available from CRAN: <https://cran.r-project.org/package=growthPheno>. However, the CRAN version, currently 1.0-22, is not updated as frequently as the version here.
+The package is also available from CRAN: <https://cran.r-project.org/package=growthPheno>. However, the CRAN version, currently 1.0-26, is not updated as frequently as the version here.
 
 #### Reference
 
