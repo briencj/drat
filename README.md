@@ -1,8 +1,8 @@
 ---
 title: Repository for the most recent versions of packages maintained by Chris Brien
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 
@@ -78,7 +78,7 @@ The `growthPheno` package is a collection of R functions that can be used to plo
 
 Windows binary R 4.0: [growthPheno_1.0-26.zip](http://briencj.github.io/drat/bin/windows/contrib/4.0/growthPheno_1.0-26.zip); Windows binary R 3.6: [growthPheno_1.0-26.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/growthPheno_1.0-26.zip);   Package source: [growthPheno_1.0-26.tar.gz](http://briencj.github.io/drat/src/contrib/growthPheno_1.0-26.tar.gz).
 
-The package is also available from CRAN: <https://cran.r-project.org/package=growthPheno>. However, the CRAN version, currently 1.0-26, is not updated as frequently as the version here.
+The package is also available from CRAN: <https://cran.r-project.org/package=growthPheno> and from the Github repo at <https://github.com/briencj/growthPheno>. However, the CRAN version, currently 1.0-26, is not updated as frequently as the version here.
 
 #### Reference
 
