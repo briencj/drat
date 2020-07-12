@@ -54,7 +54,7 @@ For more information, install the package and run the R command `news(package = 
 
 Windows binary R 4.0: [asremlPlus_4.2-21.zip](http://briencj.github.io/drat/bin/windows/contrib/4.0/asremlPlus_4.2-21.zip); Windows binary R 3.6: [asremlPlus_4.2-21.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/asremlPlus_4.2-21.zip);   Package source: [asremlPlus_4.2-21.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.2-21.tar.gz).
 
-The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.2-18, is not updated as frequently as the version here or on GitHub. 
+The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.2-21, is not updated as frequently as the version here or on GitHub. 
 
 The final version of `asremlPlus` that was produced specifically for ASReml-R version 3 is version 2.0-13.  It is no longer being developed. A version of `asremlPlus` 2.0-13 built for R 3.5.0 is available as `asreml3Plus`  version 2.0-14; that is, to load this version, a `3` must be included in the package name. 
 
