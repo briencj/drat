@@ -1,4 +1,14 @@
 Package: asreml3Plus
+Version: 2.0-13
+Depends: R (>= 2.10.0)
+Imports: dae, ggplot2, stats, methods, utils, grDevices
+Suggests: testthat
+Enhances: asreml
+License: GPL (>= 2)
+MD5sum: 19a48bffeeb00e4d5dc14fc7a12d42ca
+NeedsCompilation: no
+
+Package: asreml3Plus
 Version: 2.0-14
 Depends: R (>= 2.10.0)
 Imports: dae, ggplot2, stats, methods, utils, grDevices
@@ -9,14 +19,887 @@ MD5sum: da49e8327634657747407252ef31b136
 NeedsCompilation: no
 
 Package: asremlPlus
+Version: 2.0-13
+Depends: R (>= 2.10.0)
+Imports: dae, ggplot2, stats, methods, utils, grDevices
+Suggests: testthat
+Enhances: asreml
+License: GPL (>= 2)
+MD5sum: 358efdf85aacf8d0109a6a6caea48aef
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.0-27
+Depends: R (>= 2.10.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, stringr, RColorBrewer,
+         grDevices, foreach, parallel, doParallel
+Suggests: testthat
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 42cfeb507db87f7df6e65da2ac096d95
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.0-28
+Depends: R (>= 2.10.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, stringr, RColorBrewer,
+         grDevices, foreach, parallel, doParallel
+Suggests: testthat
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: d47355176981e3beed8a72ab1fef22b0
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-01
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, stringr, RColorBrewer,
+         grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 4722f1b79faa409bc3f8d8b7c6c4bba0
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-02
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: edf928e856459d0e8df220c7b33c0f72
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-03
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: d4a2bd613dd66c791fbb576f3b71277c
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-04
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: bac5b3623622dfc7995f76ad079a35c7
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-05
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 51a0c11a0dbc9840116fe92ffb0e53d8
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-06
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 830100fb1ba0cd56a5d7c8982459d92e
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-07
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: de0496bbc838da7cc6cfe5e3e21e6ee3
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-08
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 03917a3d555c70d6b1f0fb2598b07767
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-10
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 63d989f75220889460276d41d1f7eefd
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-11
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: f2ef86e0f56aa952d11c66b6a59e2c18
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-12
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 7f628ce3fa339e9c8d5490302dbb15cf
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-13
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: bb7a7ed56dc442abf7c7a18c208831b8
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-14
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: d306dfb5930707d3254457f9e61500ff
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-15
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: beecb7ba9462729f6f6dfe97ea0448f5
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-16
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 0000bf9b34267f1f115efe8dfd708108
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-17
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: cfc404459770d234a95f93daf66951d2
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-18
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 77875768707c2645798d4d49d5ce86a7
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-19
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 3d50bf85878e30a2cba266f54da55b49
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-20
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: e08e66eb49175d919b5c54ed2783862d
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-21
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: adefd78a519477eb60abf83f7a39f80f
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-22
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 4b10d703387f0766de46673de2684897
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-23
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 76e3b87f386eb8350e8e83150d03f9fe
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-24
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 2e5bcf4ce46a36057dc5452dd0e553f4
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-26
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 9d71933a34ca6a191fd4ecd9ea7b4422
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-27
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: b91a3c109082ee8c9d49c9fb5bd9a045
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-28
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 47ca143b1eb4cc10c18cbe580f20a935
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-29
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: fc374842806b617ba6aae2c9f0b03174
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-30
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 3c891f190dae3e6e04e424d04fbe2eaf
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-31
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 6a943d30fb09dfb29feae8625c2633ad
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-32
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 04a6368ce0f69ea751ae34ae9a9c32cc
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-33
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: a1f9bc71733dc3d6887f7c53a19a1872
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-34
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: e854847ed872b29f41480edf1734ba30
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-35
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 2b354fbcae7ae07818335c29d9e83580
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-36
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: e64143ff57ab6ec06532991ff410a302
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.1-37
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: c14e766364409fabd15ce54d7885791f
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.2-10
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 9d2bb85353c7a4bfb3583372cba5c1b4
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.2-11
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: be2310a582c374e27445e1b176f10459
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.2-12
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: c584161cb77651b42e0a3f9cc9824c74
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.2-13
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 9314c723a0098a0170a9b005d635910b
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.2-14
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 02e49def8278d49afa58010094b1c8f3
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.2-15
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 93a4627c8e45d604ea3d0abadc525665
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.2-16
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 852d84a8695a8830cf343f74ca47b8ab
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.2-18
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: c29232220dc20314c6945af1f766a52b
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.2-19
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 264dc92d387acdff96dd8d050266102d
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.2-20
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: ea32cb4953a8ff2f2efbe430f804bc5d
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.2-21
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 959a5428aecb3536eba0a11d4406dcb0
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.2-22
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 95a21df8ee52645b553cffd8895a0fff
+NeedsCompilation: no
+
+Package: asremlPlus
 Version: 4.2-23
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
-          grDevices, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
 MD5sum: 02c88b2e0cd807c7fee4262541d232d9
+NeedsCompilation: no
+
+Package: dae
+Version: 3.0-15
+Depends: R (>= 2.10.0), ggplot2
+Imports: graphics, methods, stats
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 3a72268bd543ff98abc37a4ce6dfccc9
+NeedsCompilation: no
+
+Package: dae
+Version: 3.0-16
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, stats
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: ea83621e2326be77a4d6fbabc6c7beda
+NeedsCompilation: no
+
+Package: dae
+Version: 3.0-17
+Depends: R (>= 3.1.0), ggplot2
+Imports: graphics, methods, stats
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 10c2bc41fde4b5627f6bf62a4a5ff828
+NeedsCompilation: no
+
+Package: dae
+Version: 3.0-18
+Depends: R (>= 3.1.0), ggplot2
+Imports: graphics, methods, stats
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 5667d4e843a166388e3220553e6469a8
+NeedsCompilation: no
+
+Package: dae
+Version: 3.0-19
+Depends: R (>= 3.1.0), ggplot2
+Imports: graphics, methods, stats
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 5c6a8bb82c8211565ab8ef20bb93abd4
+NeedsCompilation: no
+
+Package: dae
+Version: 3.0-20
+Depends: R (>= 3.1.0), ggplot2
+Imports: graphics, methods, stats
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: bc5b1b3e3f58969c2311c9f76fa85731
+NeedsCompilation: no
+
+Package: dae
+Version: 3.0-21
+Depends: R (>= 3.1.0), ggplot2
+Imports: graphics, methods, stats
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: bf7d1ea299dd1191c56b020d0c686479
+NeedsCompilation: no
+
+Package: dae
+Version: 3.0-22
+Depends: R (>= 3.1.0), ggplot2
+Imports: graphics, methods, stats
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 7ac6642f2355b3d81e3fb82d98b25bf8
+NeedsCompilation: no
+
+Package: dae
+Version: 3.0-23
+Depends: R (>= 3.1.0), ggplot2
+Imports: graphics, methods, stats
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 3ca2a4d54553016984b70d1860da6af5
+NeedsCompilation: no
+
+Package: dae
+Version: 3.0-24
+Depends: R (>= 3.1.0), ggplot2
+Imports: graphics, methods, stats
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: e9056eb03f174dbfd4730edaddc1d2f3
+NeedsCompilation: no
+
+Package: dae
+Version: 3.0-25
+Depends: R (>= 3.1.0), ggplot2
+Imports: graphics, methods, stats
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: c9171509da002e64cac5c6ebf70b772a
+NeedsCompilation: no
+
+Package: dae
+Version: 3.0-26
+Depends: R (>= 3.1.0), ggplot2
+Imports: graphics, methods, stats
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 59c09de44ff9f0effa5049c4ec0dd693
+NeedsCompilation: no
+
+Package: dae
+Version: 3.0-27
+Depends: R (>= 3.1.0), ggplot2
+Imports: graphics, methods, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: a946c027420533c5cef6a470793ebc88
+NeedsCompilation: no
+
+Package: dae
+Version: 3.0-28
+Depends: R (>= 3.1.0), ggplot2
+Imports: graphics, methods, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 84dfa91c863ee1f0cfd620c4728297c8
+NeedsCompilation: no
+
+Package: dae
+Version: 3.0-29
+Depends: R (>= 3.1.0), ggplot2
+Imports: graphics, methods, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 5da0084b1a5ed2c0ca0b1b41eb39b782
+NeedsCompilation: no
+
+Package: dae
+Version: 3.0-30
+Depends: R (>= 3.1.0), ggplot2
+Imports: graphics, methods, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 0cdb4a6ab06faaaa376ab90fc3c3f044
+NeedsCompilation: no
+
+Package: dae
+Version: 3.0-31
+Depends: R (>= 3.1.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 105b551de30ab917d60c6ead4ac0519d
+NeedsCompilation: no
+
+Package: dae
+Version: 3.0-32
+Depends: R (>= 3.1.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 8727dd9eeb64ee29197ba070eed45382
+NeedsCompilation: no
+
+Package: dae
+Version: 3.1-10
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 79d787658f4c349ab8df88d5ad18cb5d
+NeedsCompilation: no
+
+Package: dae
+Version: 3.1-11
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: abcaa47216ea139d20f4c527a77a5301
+NeedsCompilation: no
+
+Package: dae
+Version: 3.1-12
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 33450ec106fc99b29f2f891af2b84200
+NeedsCompilation: no
+
+Package: dae
+Version: 3.1-13
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 9210bbbcac8255fa895d687fa6e77668
+NeedsCompilation: no
+
+Package: dae
+Version: 3.1-14
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: e0387085d4f0cdb1b3e49955bfe670a0
+NeedsCompilation: no
+
+Package: dae
+Version: 3.1-16
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 4f6ab01750d6888e52d7aeabb2b5bf87
+NeedsCompilation: no
+
+Package: dae
+Version: 3.1-17
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: bde59bd05e708e8551a5d16083b64c8f
+NeedsCompilation: no
+
+Package: dae
+Version: 3.1-18
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: f1039c85331ac3e2bf1184a5a1cc0d6a
+NeedsCompilation: no
+
+Package: dae
+Version: 3.1-19
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 2aee28382aee9b181542df771a7a41fe
+NeedsCompilation: no
+
+Package: dae
+Version: 3.1-20
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 40bfa59679d86fc202baed213b514550
+NeedsCompilation: no
+
+Package: dae
+Version: 3.1-21
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 7a9433db9d9b3e324a896712b43471a4
+NeedsCompilation: no
+
+Package: dae
+Version: 3.1-22
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 13eaed958ff03cf4eaeb07adf5f18e32
+NeedsCompilation: no
+
+Package: dae
+Version: 3.1-23
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 91d09b02d4c59bc9e3f6d5815a328422
+NeedsCompilation: no
+
+Package: dae
+Version: 3.1-24
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 6182603a3f7e824a0c419015521f5f11
+NeedsCompilation: no
+
+Package: dae
+Version: 3.1-25
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 1f63038e0e0371c8c982e98050581f31
+NeedsCompilation: no
+
+Package: dae
+Version: 3.1-26
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 7397a497052d413bf37cebb52895c57f
+NeedsCompilation: no
+
+Package: dae
+Version: 3.1-27
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: cf5eb0b264d3fa7613f19b2f2dbc195e
+NeedsCompilation: no
+
+Package: dae
+Version: 3.1-28
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 3b97e0c3f700a5f029e6b791a8be9372
 NeedsCompilation: no
 
 Package: dae
@@ -28,13 +911,270 @@ License: GPL (>= 2)
 MD5sum: 371e8cf31f24c9d8a47d2c6c63ebc5c6
 NeedsCompilation: no
 
+Package: dae
+Version: 3.1-30
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: d2454bfe53247f3550016eb6ca550292
+NeedsCompilation: no
+
+Package: growthPheno
+Version: 1.0-13
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 76302a3d9656e838ab112fa64140b03e
+NeedsCompilation: no
+
+Package: growthPheno
+Version: 1.0-14
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: cc92a5d621a82a9bcef58e121923d5ea
+NeedsCompilation: no
+
+Package: growthPheno
+Version: 1.0-15
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: f904da420349e80dc70a1da65e1c1be5
+NeedsCompilation: no
+
+Package: growthPheno
+Version: 1.0-16
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 36351afb2c46ba4aeec4ebdc2e4e0ae8
+NeedsCompilation: no
+
+Package: growthPheno
+Version: 1.0-17
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: c46a85cb249b5d860c257073725c31a8
+NeedsCompilation: no
+
+Package: growthPheno
+Version: 1.0-18
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: d1d676c044a16089936c631dc918fb04
+NeedsCompilation: no
+
+Package: growthPheno
+Version: 1.0-19
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, readxl, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: dc997b45fd72df49bbaf480d896b1c84
+NeedsCompilation: no
+
+Package: growthPheno
+Version: 1.0-20
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, readxl, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 5308237abc0136ae56c1acaf87703524
+NeedsCompilation: no
+
+Package: growthPheno
+Version: 1.0-21
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, readxl, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: a8f39ed05948df3a5c14e50115b7e032
+NeedsCompilation: no
+
+Package: growthPheno
+Version: 1.0-22
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, readxl, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: e737a1205fefacd092fea74dc2c432c2
+NeedsCompilation: no
+
+Package: growthPheno
+Version: 1.0-23
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, readxl, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 6d67bcfe5f7a840a0b2dd716e5881065
+NeedsCompilation: no
+
+Package: growthPheno
+Version: 1.0-24
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
+         grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: f063530c44fd8852a8edcb300050e852
+NeedsCompilation: no
+
+Package: growthPheno
+Version: 1.0-25
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
+         grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 723094de6a52a0b69a132f7c52196b43
+NeedsCompilation: no
+
+Package: growthPheno
+Version: 1.0-26
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
+         grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 02078283e66f3723bbc43bdaa4897dc5
+NeedsCompilation: no
+
+Package: growthPheno
+Version: 1.0-27
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
+         grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: d1405c85fed0c76963f5b32ca6ac06c9
+NeedsCompilation: no
+
 Package: growthPheno
 Version: 1.0-28
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: 809466a531bb245873841424961563d5
+NeedsCompilation: no
+
+Package: imageData
+Version: 0.1-48
+Depends: R (>= 2.10.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: b02e6000e0bc1e3bc31093b78262441d
+NeedsCompilation: no
+
+Package: imageData
+Version: 0.1-49
+Depends: R (>= 2.10.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 494935148a2685d6279f7770782d09c9
+NeedsCompilation: no
+
+Package: imageData
+Version: 0.1-50
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 71ae213d5fda02067d706f054fb84dbb
+NeedsCompilation: no
+
+Package: imageData
+Version: 0.1-51
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 381c1d297a93425379b9992dfc36a8a1
+NeedsCompilation: no
+
+Package: imageData
+Version: 0.1-52
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 054c0cc42ff3a7539a39e269e9ed26c7
+NeedsCompilation: no
+
+Package: imageData
+Version: 0.1-53
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 26717449f33d0681c4ab102c53cd86cb
+NeedsCompilation: no
+
+Package: imageData
+Version: 0.1-54
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 83871ac570253113844a4175083c1b1e
+NeedsCompilation: no
+
+Package: imageData
+Version: 0.1-55
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 0f31c535901783b1f0588f89b341eff0
+NeedsCompilation: no
+
+Package: imageData
+Version: 0.1-56
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: c45c2f5277c388fab18f524365545273
+NeedsCompilation: no
+
+Package: imageData
+Version: 0.1-57
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: f5a38a2ba529598f4522df86cf14c923
+NeedsCompilation: no
+
+Package: imageData
+Version: 0.1-58
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: a22f391da607d20bd6d58c7d79fcf580
+NeedsCompilation: no
+
+Package: imageData
+Version: 0.1-59
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 4fc0b4f956f7f9dd1ed97e9c44fb5668
 NeedsCompilation: no
 
 Package: imageData
