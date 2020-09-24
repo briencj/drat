@@ -44,7 +44,7 @@ Use the links on this page to download either the Windows binary, for one or bot
 * [`imageData 0.1-60`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer.
 
 ### `asremlPlus` {#aplus}
-*(last updated 7th September 2020)*
+*(last updated 24th September 2020)*
 
 The `asremlPlus` package is a collection of R functions to augment `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences. The current version  is compatible with both `ASReml-R` versions 3 and 4.1, but not 4.0. Its `alldiffs` and `data.frame` methods can be applied to objects produced with other mixed modelling software.
 
