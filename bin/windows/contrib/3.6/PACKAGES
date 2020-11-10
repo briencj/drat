@@ -411,6 +411,13 @@ Imports: graphics, methods, plyr, stats
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 
+Package: dae
+Version: 3.1-32
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+
 Package: growthPheno
 Version: 1.0-13
 Depends: R (>= 3.5.0)
@@ -491,48 +498,48 @@ License: GPL (>= 2)
 Package: growthPheno
 Version: 1.0-24
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
-         grid
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer,
+         reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 
 Package: growthPheno
 Version: 1.0-25
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
-         grid
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer,
+         reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 
 Package: growthPheno
 Version: 1.0-26
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
-         grid
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer,
+         reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 
 Package: growthPheno
 Version: 1.0-27
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
-         grid
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer,
+         reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 
 Package: growthPheno
 Version: 1.0-28
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
-         grid
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer,
+         reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 
 Package: growthPheno
 Version: 1.0-29
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
-         grid
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer,
+         reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 
