@@ -528,6 +528,14 @@ Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, resh
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 
+Package: growthPheno
+Version: 1.0-29
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
+         grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+
 Package: imageData
 Version: 0.1-50
 Depends: R (>= 3.5.0)

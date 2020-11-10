@@ -1100,6 +1100,16 @@ License: GPL (>= 2)
 MD5sum: 809466a531bb245873841424961563d5
 NeedsCompilation: no
 
+Package: growthPheno
+Version: 1.0-29
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
+         grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: f5682f42ad516f95aa4a0d5bf5a4d25a
+NeedsCompilation: no
+
 Package: imageData
 Version: 0.1-48
 Depends: R (>= 2.10.0)
