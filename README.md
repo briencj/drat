@@ -41,7 +41,7 @@ Use the links on this page to download either the Windows binary, for one or bot
 
 * [`growthPheno 1.0-30`](#gpheno) - plotting, smoothing and growth trait extraction for longitudinal data.
 
-* [`imageData 0.1-60`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer.
+* [`imageData 0.1-61`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer.
 
 ### `asremlPlus` {#aplus}
 *(last updated 11th November 2020)*
@@ -85,13 +85,13 @@ The package is also available from CRAN: <https://cran.r-project.org/package=gro
 Brien, C., Jewell, N., Garnett, T., Watts-Williams, S. J., & Berger, B. (2020). Smoothing and extraction of traits in the growth analysis of noninvasive phenotypic data. *Plant Methods*, **16**, 36. <http://dx.doi.org/10.1186/s13007-020-00577-6>.
 
 ## `imageData` {#idata}
-*(last updated 22nd January 2020)*
+*(last updated 28th December 2020)*
 
 This package has been superseded by `growthPheno` and is no longer being developed, being retained for legacy purposes only.
 
 The `imageData` package is a collection of R functions that aids in processing and plotting data from a Lemna-Tec Scananalyzer. It is described in imageData-manual.pdf, which can be found using `vignette("Manual", package = "imageData")`. An overview can be obtained using `?imageData`. The functions can be applied selectively to longitudinal data in general.
 
-Windows binary R 3.6: [imageData_0.1-60.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/imageData_0.1-60.zip);  Windows binary R 3.5: [imageData_0.1-60.zip](http://briencj.github.io/drat/bin/windows/contrib/3.5/imageData_0.1-60.zip);  Package source: [imageData_0.1-60.tar.gz](http://briencj.github.io/drat/src/contrib/imageData_0.1-60.tar.gz).
+Windows binary R 4.0: [imageData_0.1-61.zip](http://briencj.github.io/drat/bin/windows/contrib/4.0/imageData_0.1-61.zip);  Windows binary R 3.6: [imageData_0.1-61.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/imageData_0.1-61.zip);  Package source: [imageData_0.1-61.tar.gz](http://briencj.github.io/drat/src/contrib/imageData_0.1-61.tar.gz).
 
 The package is also available from CRAN: <https://cran.r-project.org/package=imageData>.
 
