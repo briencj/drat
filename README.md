@@ -37,7 +37,7 @@ Use the links on this page to download either the Windows binary, for one or bot
 
 * [`asremlPlus 4.2-26`](#aplus) - augments `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences.
 
-* [`dae 3.1-32`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
+* [`dae 3.1-33`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
 
 * [`growthPheno 1.0-30`](#gpheno) - plotting, smoothing and growth trait extraction for longitudinal data.
 
@@ -54,7 +54,7 @@ For more information, install the package and run the R command `news(package = 
 
 Windows binary R 4.0: [asremlPlus_4.2-26.zip](http://briencj.github.io/drat/bin/windows/contrib/4.0/asremlPlus_4.2-26.zip); Windows binary R 3.6: [asremlPlus_4.2-26.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/asremlPlus_4.2-26.zip);   Package source: [asremlPlus_4.2-26.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.2-26.tar.gz).
 
-The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.2-21, is not updated as frequently as the version here or on GitHub. 
+The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.2-26, is not updated as frequently as the version here or on GitHub. 
 
 The final version of `asremlPlus` that was produced specifically for ASReml-R version 3 is version 2.0-13.  It is no longer being developed. A version of `asremlPlus` 2.0-13 built for R 3.5.0 is available as `asreml3Plus`  version 2.0-14; that is, to load this version, a `3` must be included in the package name. 
 
@@ -63,13 +63,13 @@ Windows binary R 3.5: [asreml3Plus_2.0-14.zip](http://briencj.github.io/drat/bin
 Windows binary R 3.4: [asremlPlus_2.0-13.zip](http://briencj.github.io/drat/bin/windows/contrib/3.4/asremlPlus_2.0-13.zip);  Package source: [asremlPlus_2.0-13.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_2.0-13.tar.gz).
 
 ### `dae` {#dae}
-*(last updated 11th Nocember 2020)*
+*(last updated 15th February 2021)*
 
 The `dae` package of R functions has been developed to facilitate the use of R for the design and analysis of variance of experiments; these days the emphasis is on design. It is described in the manual, which can be found using `vignette("Manual", package = "dae")`. Also found using `vignette("DesignNotes", package = "dae")` is a vignette describing how to use `designRandomize` to produce randomized layouts for experiments and `designAnatomy` to assessing the properties of designs. It covers both standard and multiphase experimental designs. The data sets that go with the vignette are available in `dae`.
 
-Windows binary R 4.0: [dae_3.1-32.zip](http://briencj.github.io/drat/bin/windows/contrib/4.0/dae_3.1-32.zip);  Windows binary R 3.6: [dae_3.1-32.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/dae_3.1-32.zip);  Package source: [dae_3.1-32.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.1-32.tar.gz).
+Windows binary R 4.0: [dae_3.1-33.zip](http://briencj.github.io/drat/bin/windows/contrib/4.0/dae_3.1-33.zip);  Windows binary R 3.6: [dae_3.1-33.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/dae_3.1-33.zip);  Package source: [dae_3.1-33.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.1-33.tar.gz).
 
-The package is also available from CRAN at <https://cran.r-project.org/package=dae> and from the Github repo at <https://github.com/briencj/dae>. However, the CRAN version, currently 3.1-27, is not updated as frequently as the version here or on GitHub.  
+The package is also available from CRAN at <https://cran.r-project.org/package=dae> and from the Github repo at <https://github.com/briencj/dae>. However, the CRAN version, currently 3.1-32, is not updated as frequently as the version here or on GitHub.  
 
 ## `growthPheno` {#gpheno}
 *(last updated 12th December 2020)*
