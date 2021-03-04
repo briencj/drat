@@ -147,6 +147,13 @@ Imports: graphics, methods, plyr, stats
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 
+Package: dae
+Version: 3.1-36
+Depends: R (>= 3.5.0), ggplot2
+Imports: graphics, methods, plyr, stats
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+
 Package: growthPheno
 Version: 1.0-25
 Depends: R (>= 3.5.0)
