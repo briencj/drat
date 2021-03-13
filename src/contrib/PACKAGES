@@ -31,8 +31,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.0-27
 Depends: R (>= 2.10.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, stringr, RColorBrewer,
-         grDevices, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
 Suggests: testthat
 Enhances: asreml
 License: MIT + file LICENSE
@@ -42,8 +42,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.0-28
 Depends: R (>= 2.10.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, stringr, RColorBrewer,
-         grDevices, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
 Suggests: testthat
 Enhances: asreml
 License: MIT + file LICENSE
@@ -53,8 +53,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-01
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, stringr, RColorBrewer,
-         grDevices, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice
 Enhances: asreml
 License: MIT + file LICENSE
@@ -611,6 +611,17 @@ License: MIT + file LICENSE
 MD5sum: 9627d3184fafd6e960273e26d05e698e
 NeedsCompilation: no
 
+Package: asremlPlus
+Version: 4.2-27
+Depends: R (>= 3.5.0)
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr,
+         RColorBrewer, grDevices, foreach, parallel, doParallel
+Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 68f3e9268152d7b966c2cfef930f837e
+NeedsCompilation: no
+
 Package: dae
 Version: 3.0-15
 Depends: R (>= 2.10.0), ggplot2
@@ -1010,7 +1021,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 1.0-13
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: 76302a3d9656e838ab112fa64140b03e
@@ -1019,7 +1031,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 1.0-14
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: cc92a5d621a82a9bcef58e121923d5ea
@@ -1028,7 +1041,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 1.0-15
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: f904da420349e80dc70a1da65e1c1be5
@@ -1037,7 +1051,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 1.0-16
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: 36351afb2c46ba4aeec4ebdc2e4e0ae8
@@ -1046,7 +1061,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 1.0-17
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: c46a85cb249b5d860c257073725c31a8
@@ -1055,7 +1071,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 1.0-18
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: d1d676c044a16089936c631dc918fb04
@@ -1109,8 +1126,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 1.0-24
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
-         grid
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer,
+         reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: f063530c44fd8852a8edcb300050e852
@@ -1119,8 +1136,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 1.0-25
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
-         grid
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer,
+         reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: 723094de6a52a0b69a132f7c52196b43
@@ -1129,8 +1146,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 1.0-26
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
-         grid
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer,
+         reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: 02078283e66f3723bbc43bdaa4897dc5
@@ -1139,8 +1156,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 1.0-27
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
-         grid
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer,
+         reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: d1405c85fed0c76963f5b32ca6ac06c9
@@ -1149,8 +1166,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 1.0-28
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
-         grid
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer,
+         reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: 809466a531bb245873841424961563d5
@@ -1159,8 +1176,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 1.0-29
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
-         grid
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer,
+         reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: f5682f42ad516f95aa4a0d5bf5a4d25a
@@ -1169,8 +1186,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 1.0-30
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer, reshape,
-         grid
+Imports: dae, ggplot2, stats, stringi, readxl, Hmisc, GGally, RColorBrewer,
+         reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: e2deaa7d2f04c6fd7ba3778f5c4feb1c
@@ -1179,7 +1196,8 @@ NeedsCompilation: no
 Package: imageData
 Version: 0.1-48
 Depends: R (>= 2.10.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat
 License: GPL (>= 2)
 MD5sum: b02e6000e0bc1e3bc31093b78262441d
@@ -1188,7 +1206,8 @@ NeedsCompilation: no
 Package: imageData
 Version: 0.1-49
 Depends: R (>= 2.10.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat
 License: GPL (>= 2)
 MD5sum: 494935148a2685d6279f7770782d09c9
@@ -1197,7 +1216,8 @@ NeedsCompilation: no
 Package: imageData
 Version: 0.1-50
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat
 License: GPL (>= 2)
 MD5sum: 71ae213d5fda02067d706f054fb84dbb
@@ -1206,7 +1226,8 @@ NeedsCompilation: no
 Package: imageData
 Version: 0.1-51
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat
 License: GPL (>= 2)
 MD5sum: 381c1d297a93425379b9992dfc36a8a1
@@ -1215,7 +1236,8 @@ NeedsCompilation: no
 Package: imageData
 Version: 0.1-52
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat
 License: GPL (>= 2)
 MD5sum: 054c0cc42ff3a7539a39e269e9ed26c7
@@ -1224,7 +1246,8 @@ NeedsCompilation: no
 Package: imageData
 Version: 0.1-53
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat
 License: GPL (>= 2)
 MD5sum: 26717449f33d0681c4ab102c53cd86cb
@@ -1233,7 +1256,8 @@ NeedsCompilation: no
 Package: imageData
 Version: 0.1-54
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat
 License: GPL (>= 2)
 MD5sum: 83871ac570253113844a4175083c1b1e
@@ -1242,7 +1266,8 @@ NeedsCompilation: no
 Package: imageData
 Version: 0.1-55
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: 0f31c535901783b1f0588f89b341eff0
@@ -1251,7 +1276,8 @@ NeedsCompilation: no
 Package: imageData
 Version: 0.1-56
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: c45c2f5277c388fab18f524365545273
@@ -1260,7 +1286,8 @@ NeedsCompilation: no
 Package: imageData
 Version: 0.1-57
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: f5a38a2ba529598f4522df86cf14c923
@@ -1269,7 +1296,8 @@ NeedsCompilation: no
 Package: imageData
 Version: 0.1-58
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: a22f391da607d20bd6d58c7d79fcf580
@@ -1278,7 +1306,8 @@ NeedsCompilation: no
 Package: imageData
 Version: 0.1-59
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, XLConnect, Hmisc, GGally, RColorBrewer, reshape,
+         grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: 4fc0b4f956f7f9dd1ed97e9c44fb5668
