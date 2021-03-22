@@ -44,7 +44,7 @@ Use the links on this page to download either the Windows binary, for one or bot
 * [`imageData 0.1-61`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer.
 
 ### `asremlPlus` {#aplus}
-*(last updated 19th March 2021)*
+*(last updated 22th March 2021)*
 
 The `asremlPlus` package is a collection of R functions to augment `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences. The current version  is compatible with both `ASReml-R` versions 3 and 4.1, but not 4.0. Its `alldiffs` and `data.frame` methods can be applied to objects produced with other mixed modelling software.
 
@@ -54,7 +54,7 @@ For more information, install the package and run the R command `news(package = 
 
 Windows binary R 4.0: [asremlPlus_4.2-32.zip](http://briencj.github.io/drat/bin/windows/contrib/4.0/asremlPlus_4.2-32.zip); Windows binary R 3.6: [asremlPlus_4.2-32.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/asremlPlus_4.2-32.zip);   Package source: [asremlPlus_4.2-32.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.2-32.tar.gz).
 
-The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.2-26, is not updated as frequently as the version here or on GitHub. 
+The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.2-32, is not updated as frequently as the version here or on GitHub. 
 
 The final version of `asremlPlus` that was produced specifically for ASReml-R version 3 is version 2.0-13.  It is no longer being developed. A version of `asremlPlus` 2.0-13 built for R 3.5.0 is available as `asreml3Plus`  version 2.0-14; that is, to load this version, a `3` must be included in the package name. 
 
