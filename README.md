@@ -1,3 +1,8 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 # Repository for the most recent versions of packages maintained by Chris Brien
 
 Email: <chris.brien@adelaide.edu.au>
@@ -31,7 +36,7 @@ Use the links on this page to download either the Windows binary, for one or bot
 
 * [`asremlPlus 4.2-36`](#aplus) - augments `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences.
 
-* [`dae 3.1-40`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
+* [`dae 3.1-41`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
 
 * [`growthPheno 1.0-33`](#gpheno) - plotting, smoothing and growth trait extraction for longitudinal data.
 
@@ -46,9 +51,9 @@ Versions 4.x-xx of `asremlPlus` are a major revamp of the package and include su
 
 For more information, install the package and run the R command `news(package = “asremlPlus”)`. For an overview enter `?asremlPlus`. Otherwise, you could consult the manual using `vignette("Manual", package = "asremlPlus")`. Also available is the Wheat.analysis vignette [`vignette("Wheat.analysis", package = "asremlPlus")`] that shows how to select the terms to be included in a mixed model for an experiment that involves spatial variation; it also illustrates diagnostic checking and prediction production and presentation for this example. A second vignette is the Wheat.infoCriteria vignette [`vignette("Wheat.infoCriteria", package = "asremlPlus")`] that illustrates the facilities in `asremlPlus` for producing and using information criteria. Two further vignettes show how to use `asremlPlus` for exploring and presenting predictions from a linear mixed model analysis in the context of a three-factor factorial experiment on ladybirds: one vignette, Ladybird.asreml vignette [`vignette("Ladybird.asreml", package = "asremlPlus")`], uses `asreml` and `asremlPlus` to produce and present  predictions; the other vignette, Ladybird.lm vignette [`vignette("Ladybird.lm", package = "asremlPlus")`], uses `lm` to produce the predictions and `asremlPlus` to present the predictions..
 
-Windows binary R 4.0: [asremlPlus_4.2-36.zip](http://briencj.github.io/drat/bin/windows/contrib/4.0/asremlPlus_4.2-36.zip); Windows binary R 3.6: [asremlPlus_4.2-36.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/asremlPlus_4.2-36.zip);   Package source: [asremlPlus_4.2-36.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.2-36.tar.gz).
+Windows binary R 4.1: [asremlPlus_4.2-36.zip](http://briencj.github.io/drat/bin/windows/contrib/4.1/asremlPlus_4.2-36.zip); Windows binary R 4.0: [asremlPlus_4.2-36.zip](http://briencj.github.io/drat/bin/windows/contrib/4.0/asremlPlus_4.2-36.zip);   Package source: [asremlPlus_4.2-36.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.2-36.tar.gz).
 
-The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.2-32, is not updated as frequently as the version here or on GitHub. 
+The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.2-32, is not updated as frequently as the version here or on GitHub. Older versions of the package and versions for older R versions are available from <https://github.com/briencj/drat/tree/gh-pages>.
 
 The final version of `asremlPlus` that was produced specifically for ASReml-R version 3 is version 2.0-13.  It is no longer being developed. A version of `asremlPlus` 2.0-13 built for R 3.5.0 is available as `asreml3Plus`  version 2.0-14; that is, to load this version, a `3` must be included in the package name. 
 
@@ -57,22 +62,22 @@ Windows binary R 3.5: [asreml3Plus_2.0-14.zip](http://briencj.github.io/drat/bin
 Windows binary R 3.4: [asremlPlus_2.0-13.zip](http://briencj.github.io/drat/bin/windows/contrib/3.4/asremlPlus_2.0-13.zip);  Package source: [asremlPlus_2.0-13.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_2.0-13.tar.gz).
 
 ### `dae` {#dae}
-*(last updated 12th May 2021)*
+*(last updated 7th June 2021)*
 
 The `dae` package of R functions has been developed to facilitate the use of R for the design and analysis of variance of experiments; these days the emphasis is on design. It is described in the manual, which can be found using `vignette("Manual", package = "dae")`. Also found using `vignette("DesignNotes", package = "dae")` is a vignette describing how to use `designRandomize` to produce randomized layouts for experiments and `designAnatomy` to assessing the properties of designs. It covers both standard and multiphase experimental designs. The data sets that go with the vignette are available in `dae`.
 
-Windows binary R 4.0: [dae_3.1-40.zip](http://briencj.github.io/drat/bin/windows/contrib/4.0/dae_3.1-40.zip);  Windows binary R 3.6: [dae_3.1-40.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/dae_3.1-40.zip);  Package source: [dae_3.1-40.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.1-40.tar.gz).
+Windows binary R 4.1: [dae_3.1-41.zip](http://briencj.github.io/drat/bin/windows/contrib/4.1/dae_3.1-41.zip);  Windows binary R 4.0: [dae_3.1-41.zip](http://briencj.github.io/drat/bin/windows/contrib/4.0/dae_3.1-41.zip);  Package source: [dae_3.1-41.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.1-41.tar.gz).
 
-The package is also available from CRAN at <https://cran.r-project.org/package=dae> and from the Github repo at <https://github.com/briencj/dae>. However, the CRAN version, currently 3.1-37, is not updated as frequently as the version here or on GitHub.  
+The package is also available from CRAN at <https://cran.r-project.org/package=dae> and from the Github repo at <https://github.com/briencj/dae>. However, the CRAN version, currently 3.1-37, is not updated as frequently as the version here or on GitHub. Older versions of the package and versions for older R versions are available from <https://github.com/briencj/drat/tree/gh-pages>.  
 
 ## `growthPheno` {#gpheno}
 *(last updated 7th May 2020)*
 
 The `growthPheno` package is a collection of R functions that can be used to plot, smooth and extract growth traits for longitudinal data, as described by Brien et al. (2020). It is described in growthPheno-manual.pdf, which can be found using `vignette("Manual", package = "growthPheno")`. An overview can be obtained using `?growthPheno`. Two vignettes, `Tomato` and `Rice`, illustrate the process for smoothing and extraction of traits (SET), the former being the example presented in Brien et al. (2020). Use `vignette("Tomato", package = "growthPheno")` or `vignette("Rice", package = "growthPheno")` to access either of the vignettes. Many of the functions can be applied to longitudinal data in general.
 
-Windows binary R 4.0: [growthPheno_1.0-33.zip](http://briencj.github.io/drat/bin/windows/contrib/4.0/growthPheno_1.0-33.zip); Windows binary R 3.6: [growthPheno_1.0-33.zip](http://briencj.github.io/drat/bin/windows/contrib/3.6/growthPheno_1.0-33.zip);   Package source: [growthPheno_1.0-33.tar.gz](http://briencj.github.io/drat/src/contrib/growthPheno_1.0-33.tar.gz).
+Windows binary R 4.1: [growthPheno_1.0-33.zip](http://briencj.github.io/drat/bin/windows/contrib/4.1/growthPheno_1.0-33.zip); Windows binary R 4.0: [growthPheno_1.0-33.zip](http://briencj.github.io/drat/bin/windows/contrib/4.0/growthPheno_1.0-33.zip);   Package source: [growthPheno_1.0-33.tar.gz](http://briencj.github.io/drat/src/contrib/growthPheno_1.0-33.tar.gz).
 
-The package is also available from CRAN: <https://cran.r-project.org/package=growthPheno> and from the Github repo at <https://github.com/briencj/growthPheno>. However, the CRAN version, currently 1.0-30, is not updated as frequently as the version here.
+The package is also available from CRAN: <https://cran.r-project.org/package=growthPheno> and from the Github repo at <https://github.com/briencj/growthPheno>. However, the CRAN version, currently 1.0-30, is not updated as frequently as the version here. Older versions of the package and versions for older R versions are available from <https://github.com/briencj/drat/tree/gh-pages>.
 
 #### Reference
 
