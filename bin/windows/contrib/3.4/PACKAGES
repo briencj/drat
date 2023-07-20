@@ -1,0 +1,15 @@
+Package: asreml3Plus
+Version: 2.0-13
+Depends: R (>= 2.10.0)
+Imports: dae, ggplot2, stats, methods, utils, grDevices
+Suggests: testthat
+Enhances: asreml
+License: GPL (>= 2)
+
+Package: asremlPlus
+Version: 2.0-13
+Depends: R (>= 2.10.0)
+Imports: dae, ggplot2, stats, methods, utils, grDevices
+Suggests: testthat
+Enhances: asreml
+License: GPL (>= 2)
