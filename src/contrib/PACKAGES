@@ -1557,6 +1557,16 @@ License: GPL (>= 2)
 MD5sum: 1b79a17527831bdb2ac54ebe528d1c13
 NeedsCompilation: no
 
+Package: growthPheno
+Version: 2.1.21
+Depends: R (>= 3.5.0)
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl,
+         reshape, stats, stringi, utils
+Suggests: testthat, nlme, R.rsp, scales
+License: GPL (>= 2)
+MD5sum: 55f8b8b5544531496b2fd88b43dd476e
+NeedsCompilation: no
+
 Package: imageData
 Version: 0.1-48
 Depends: R (>= 2.10.0)
@@ -1681,4 +1691,13 @@ Imports: dae, ggplot2, stats, readxl, Hmisc, GGally, RColorBrewer, reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
 MD5sum: fc6f6a229c03ef56d9c859dfbf28fff5
+NeedsCompilation: no
+
+Package: imageData
+Version: 0.1-62
+Depends: R (>= 3.1.0)
+Imports: dae, ggplot2, stats, readxl, Hmisc, GGally, RColorBrewer, reshape, grid
+Suggests: testthat, R.rsp
+License: GPL (>= 2)
+MD5sum: 21647e504c49267468b0d26df45624d2
 NeedsCompilation: no
