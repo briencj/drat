@@ -38,6 +38,16 @@ Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tict
 Enhances: asreml
 License: MIT + file LICENSE
 
+Package: asremlPlus
+Version: 4.4.14
+Depends: R (>= 3.5.0)
+Imports: dae, devtools, doParallel, dplyr,ggplot2, foreach, grDevices, graphics,
+         methods, qqplotr, parallel, reshape2, RColorBrewer, rlang, stats, stringr,
+         sticky, utils
+Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
+Enhances: asreml
+License: MIT + file LICENSE
+
 Package: dae
 Version: 3.2.17
 Depends: R (>= 3.5.0), ggplot2
