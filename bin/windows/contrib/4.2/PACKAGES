@@ -372,6 +372,14 @@ Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, re
 Suggests: testthat, nlme, R.rsp, scales
 License: GPL (>= 2)
 
+Package: growthPheno
+Version: 2.1.23
+Depends: R (>= 3.5.0)
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl,
+         reshape, stats, stringi, utils
+Suggests: testthat, nlme, R.rsp, scales
+License: GPL (>= 2)
+
 Package: imageData
 Version: 0.1-61
 Depends: R (>= 3.1.0)
