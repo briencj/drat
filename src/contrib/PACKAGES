@@ -1216,6 +1216,17 @@ License: MIT + file LICENSE
 MD5sum: 5da352c57b5536ea7a930d1aa8186ae8
 NeedsCompilation: no
 
+Package: asremlPlus
+Version: 4.4.21
+Depends: R (>= 3.5.0)
+Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods,
+          qqplotr, parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
+Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 7db112facd7027ef1503c62b19dd8e27
+NeedsCompilation: no
+
 Package: dae
 Version: 3.2.15
 Depends: R (>= 3.5.0), ggplot2
