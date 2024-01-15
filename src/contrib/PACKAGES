@@ -31,8 +31,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.0-27
 Depends: R (>= 2.10.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, stringr, RColorBrewer, grDevices, foreach,
-            parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, stringr, RColorBrewer, grDevices,
+          foreach, parallel, doParallel
 Suggests: testthat
 Enhances: asreml
 License: MIT + file LICENSE
@@ -42,8 +42,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.0-28
 Depends: R (>= 2.10.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, stringr, RColorBrewer, grDevices, foreach,
-            parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, stringr, RColorBrewer, grDevices,
+          foreach, parallel, doParallel
 Suggests: testthat
 Enhances: asreml
 License: MIT + file LICENSE
@@ -53,8 +53,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-01
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, stringr, RColorBrewer, grDevices, foreach,
-            parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, stringr, RColorBrewer, grDevices,
+          foreach, parallel, doParallel
 Suggests: testthat, lattice
 Enhances: asreml
 License: MIT + file LICENSE
@@ -64,8 +64,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-02
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice
 Enhances: asreml
 License: MIT + file LICENSE
@@ -75,8 +75,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-03
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice
 Enhances: asreml
 License: MIT + file LICENSE
@@ -86,8 +86,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-04
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice
 Enhances: asreml
 License: MIT + file LICENSE
@@ -97,8 +97,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-05
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice
 Enhances: asreml
 License: MIT + file LICENSE
@@ -108,8 +108,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-06
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice
 Enhances: asreml
 License: MIT + file LICENSE
@@ -119,8 +119,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-07
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice
 Enhances: asreml
 License: MIT + file LICENSE
@@ -130,8 +130,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-08
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice
 Enhances: asreml
 License: MIT + file LICENSE
@@ -141,8 +141,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-10
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest
 Enhances: asreml
 License: MIT + file LICENSE
@@ -152,8 +152,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-11
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest
 Enhances: asreml
 License: MIT + file LICENSE
@@ -163,8 +163,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-12
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest
 Enhances: asreml
 License: MIT + file LICENSE
@@ -174,8 +174,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-13
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest
 Enhances: asreml
 License: MIT + file LICENSE
@@ -185,8 +185,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-14
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest
 Enhances: asreml
 License: MIT + file LICENSE
@@ -196,8 +196,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-15
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -207,8 +207,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-16
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest
 Enhances: asreml
 License: MIT + file LICENSE
@@ -218,8 +218,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-17
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest
 Enhances: asreml
 License: MIT + file LICENSE
@@ -229,8 +229,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-18
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -240,8 +240,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-19
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -251,8 +251,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-20
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -262,8 +262,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-21
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -273,8 +273,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-22
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -284,8 +284,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-23
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -295,8 +295,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-24
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -306,8 +306,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-26
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -317,8 +317,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-27
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -328,8 +328,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-28
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -339,8 +339,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-29
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -350,8 +350,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-30
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -361,8 +361,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-31
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -372,8 +372,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-32
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -383,8 +383,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-33
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -394,8 +394,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-34
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -405,8 +405,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-35
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -416,8 +416,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-36
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -427,8 +427,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.1-37
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -438,8 +438,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-10
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -449,8 +449,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-11
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -460,8 +460,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-12
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -471,8 +471,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-13
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -482,8 +482,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-14
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -493,8 +493,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-15
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -504,8 +504,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-16
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -515,8 +515,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-18
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -526,8 +526,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-19
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -537,8 +537,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-20
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -548,8 +548,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-21
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -559,8 +559,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-22
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -570,8 +570,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-23
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -581,8 +581,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-24
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -592,8 +592,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-25
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -603,8 +603,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-26
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -614,8 +614,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-27
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -625,8 +625,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-28
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -636,8 +636,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-29
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -647,8 +647,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-32
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -658,8 +658,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-33
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -669,8 +669,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-34
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -680,8 +680,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-35
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -691,8 +691,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.2-36
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -702,8 +702,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-10
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -713,8 +713,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-11
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -724,8 +724,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-12
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -735,8 +735,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-13
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -746,8 +746,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-14
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -757,8 +757,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-15
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -768,8 +768,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-16
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, sticky, RColorBrewer,
-            grDevices, graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, sticky,
+          RColorBrewer, grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -779,8 +779,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-17
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, sticky, RColorBrewer,
-            grDevices, graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, sticky,
+          RColorBrewer, grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -790,8 +790,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-18
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, sticky, RColorBrewer,
-            grDevices, graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, plyr, dplyr, stringr, sticky,
+          RColorBrewer, grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -801,8 +801,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-19
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -812,8 +812,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-20
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -823,8 +823,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-21
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -834,8 +834,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-22
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -845,8 +845,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-23
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -856,8 +856,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-24
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -867,8 +867,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-25
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -878,8 +878,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-26
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -889,8 +889,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-27
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -900,8 +900,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-28
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -911,8 +911,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-29
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -922,8 +922,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-31
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -933,8 +933,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-32
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -944,8 +944,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-33
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -955,8 +955,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3-34
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape2, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape2, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -966,8 +966,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3.36
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape2, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape2, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -977,8 +977,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3.37
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape2, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape2, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -988,8 +988,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3.41
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape2, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape2, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -999,8 +999,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3.42
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape2, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape2, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1010,8 +1010,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3.43
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape2, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape2, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1021,8 +1021,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3.44
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape2, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape2, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1032,8 +1032,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3.45
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape2, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape2, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1043,8 +1043,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3.46
 Depends: R (>= 3.5.0)
-Imports: dae, ggplot2, stats, methods, utils, reshape2, dplyr, stringr, sticky, RColorBrewer, grDevices,
-            graphics, foreach, parallel, doParallel
+Imports: dae, ggplot2, stats, methods, utils, reshape2, dplyr, stringr, sticky, RColorBrewer,
+          grDevices, graphics, foreach, parallel, doParallel
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1054,8 +1054,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3.47
 Depends: R (>= 3.5.0)
-Imports: dae, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods, parallel, reshape2,
-            RColorBrewer, rlang, stats, stringr, sticky, utils
+Imports: dae, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods, parallel,
+          reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1065,8 +1065,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3.48
 Depends: R (>= 3.5.0)
-Imports: dae, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods, parallel, reshape2,
-            RColorBrewer, rlang, stats, stringr, sticky, utils
+Imports: dae, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods, parallel,
+          reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1076,8 +1076,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3.49
 Depends: R (>= 3.5.0)
-Imports: dae, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods, parallel, reshape2,
-            RColorBrewer, rlang, stats, stringr, sticky, utils
+Imports: dae, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods, parallel,
+          reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1087,8 +1087,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3.50
 Depends: R (>= 3.5.0)
-Imports: dae, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods, parallel, reshape2,
-            RColorBrewer, rlang, stats, stringr, sticky, utils
+Imports: dae, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods, parallel,
+          reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1098,8 +1098,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3.51
 Depends: R (>= 3.5.0)
-Imports: dae, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods, parallel, reshape2,
-            RColorBrewer, rlang, stats, stringr, sticky, utils
+Imports: dae, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods, parallel,
+          reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1109,8 +1109,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.3.55
 Depends: R (>= 3.5.0)
-Imports: dae, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods, parallel, qqplotr, reshape2,
-            RColorBrewer, rlang, stats, stringr, sticky, utils
+Imports: dae, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods, parallel,
+          qqplotr, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
 Suggests: testthat, lattice, emmeans, lmerTest, pbkrtest, R.rsp
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1120,8 +1120,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.4.11
 Depends: R (>= 3.5.0)
-Imports: dae, devtools, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods, qqplotr, parallel,
-            reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
+Imports: dae, devtools, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods,
+          qqplotr, parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
 Suggests: emmeans, lattice, lmerTest, pbkrtest, R.rsp, testthat
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1131,8 +1131,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.4.12
 Depends: R (>= 3.5.0)
-Imports: dae, devtools, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods, qqplotr, parallel,
-            reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
+Imports: dae, devtools, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods,
+          qqplotr, parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
 Suggests: emmeans, lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1142,8 +1142,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.4.13
 Depends: R (>= 3.5.0)
-Imports: dae, devtools, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods, qqplotr, parallel,
-            reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
+Imports: dae, devtools, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods,
+          qqplotr, parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
 Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1153,8 +1153,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.4.14
 Depends: R (>= 3.5.0)
-Imports: dae, devtools, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods, qqplotr, parallel,
-            reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
+Imports: dae, devtools, doParallel, dplyr,ggplot2, foreach, grDevices, graphics, methods,
+          qqplotr, parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
 Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1164,8 +1164,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.4.15
 Depends: R (>= 3.5.0)
-Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods, qqplotr,
-            parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
+Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods,
+          qqplotr, parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
 Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1175,8 +1175,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.4.16
 Depends: R (>= 3.5.0)
-Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods, qqplotr,
-            parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
+Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods,
+          qqplotr, parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
 Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1186,8 +1186,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.4.17
 Depends: R (>= 3.5.0)
-Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods, qqplotr,
-            parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
+Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods,
+          qqplotr, parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
 Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1197,8 +1197,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.4.18
 Depends: R (>= 3.5.0)
-Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods, qqplotr,
-            parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
+Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods,
+          qqplotr, parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
 Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1208,8 +1208,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.4.19
 Depends: R (>= 3.5.0)
-Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods, qqplotr,
-            parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
+Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods,
+          qqplotr, parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
 Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1219,8 +1219,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.4.21
 Depends: R (>= 3.5.0)
-Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods, qqplotr,
-            parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
+Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods,
+          qqplotr, parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
 Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1230,8 +1230,8 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.4.22
 Depends: R (>= 3.5.0)
-Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods, qqplotr,
-            parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
+Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods,
+          qqplotr, parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
 Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1241,8 +1241,9 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.4.23
 Depends: R (>= 3.5.0)
-Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods, nloptr, qqplotr,
-            parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
+Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods,
+          nloptr, qqplotr, parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky,
+          utils
 Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
 Enhances: asreml
 License: MIT + file LICENSE
@@ -1252,12 +1253,25 @@ NeedsCompilation: no
 Package: asremlPlus
 Version: 4.4.24
 Depends: R (>= 3.5.0)
-Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods, nloptr, qqplotr,
-            parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky, utils
+Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods,
+          nloptr, qqplotr, parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky,
+          utils
 Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
 Enhances: asreml
 License: MIT + file LICENSE
 MD5sum: 1485abb96652f1d070d29a51b4e459a7
+NeedsCompilation: no
+
+Package: asremlPlus
+Version: 4.4.25
+Depends: R (>= 3.5.0)
+Imports: dae, devtools, doParallel, dplyr, ggplot2, foreach, grDevices, graphics, methods,
+          nloptr, qqplotr, parallel, reshape2, RColorBrewer, rlang, stats, stringr, sticky,
+          utils
+Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 8ed2f194a4aa51f52247431f5d504750
 NeedsCompilation: no
 
 Package: dae
@@ -1294,6 +1308,15 @@ Imports: ggpubr, graphics, methods, plyr, stats
 Suggests: testthat, vdiffr, R.rsp
 License: GPL (>= 2)
 MD5sum: f4f615d6c041fe0d1da96e9a4ba7dd78
+NeedsCompilation: no
+
+Package: dae
+Version: 3.2.21
+Depends: R (>= 3.5.0), ggplot2
+Imports: ggpubr, graphics, methods, plyr, stats
+Suggests: testthat, vdiffr, R.rsp
+License: GPL (>= 2)
+MD5sum: 18cc58b708c6e3ac15081b3fb9230c38
 NeedsCompilation: no
 
 Package: growthPheno
@@ -1515,8 +1538,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 2.0.14
 Depends: R (>= 3.5.0)
-Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape, stats,
-            stringi, utils
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape,
+          stats, stringi, utils
 Suggests: testthat, nlme, R.rsp, scales
 License: GPL (>= 2)
 MD5sum: 3f2d602a64ff4a1d8e3f0bcba2ff1bc4
@@ -1525,8 +1548,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 2.0.15
 Depends: R (>= 3.5.0)
-Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape, stats,
-            stringi, utils
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape,
+          stats, stringi, utils
 Suggests: testthat, nlme, R.rsp, scales, WriteXLS
 License: GPL (>= 2)
 MD5sum: 1bb6e032a69b3da0606ef469ecd302b7
@@ -1535,8 +1558,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 2.0.16
 Depends: R (>= 3.5.0)
-Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape, stats,
-            stringi, utils
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape,
+          stats, stringi, utils
 Suggests: testthat, nlme, R.rsp, scales, WriteXLS
 License: GPL (>= 2)
 MD5sum: 6447da742ab418294947d2c2cc5c7d9a
@@ -1545,8 +1568,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 2.0.17
 Depends: R (>= 3.5.0)
-Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape, stats,
-            stringi, utils
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape,
+          stats, stringi, utils
 Suggests: testthat, nlme, R.rsp, scales, WriteXLS
 License: GPL (>= 2)
 MD5sum: 1f66b35dbb9a641ce5549f243dfa5e84
@@ -1555,8 +1578,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 2.0.18
 Depends: R (>= 3.5.0)
-Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape, stats,
-            stringi, utils
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape,
+          stats, stringi, utils
 Suggests: testthat, nlme, R.rsp, scales, WriteXLS
 License: GPL (>= 2)
 MD5sum: 37c32e27c13596ec20639f5055b2da11
@@ -1565,8 +1588,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 2.0.19
 Depends: R (>= 3.5.0)
-Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape, stats,
-            stringi, utils
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape,
+          stats, stringi, utils
 Suggests: testthat, nlme, R.rsp, scales, WriteXLS
 License: GPL (>= 2)
 MD5sum: 5c96855b5e0d224b4f5ac649b0c158ef
@@ -1575,8 +1598,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 2.1.10
 Depends: R (>= 3.5.0)
-Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape, stats,
-            stringi, utils
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape,
+          stats, stringi, utils
 Suggests: testthat, nlme, R.rsp, scales, WriteXLS
 License: GPL (>= 2)
 MD5sum: 88e8f75ae6ae7755b69fed2c1dfd98b0
@@ -1585,8 +1608,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 2.1.11
 Depends: R (>= 3.5.0)
-Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape, stats,
-            stringi, utils
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape,
+          stats, stringi, utils
 Suggests: testthat, nlme, R.rsp, scales, WriteXLS
 License: GPL (>= 2)
 MD5sum: 1caa2abdd68722f9cb4b5acdb8a2359f
@@ -1595,8 +1618,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 2.1.12
 Depends: R (>= 3.5.0)
-Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape, stats,
-            stringi, utils
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape,
+          stats, stringi, utils
 Suggests: testthat, nlme, R.rsp, scales, WriteXLS
 License: GPL (>= 2)
 MD5sum: bff81b41b42ea0ee36e3502d3c8d7c2d
@@ -1605,8 +1628,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 2.1.13
 Depends: R (>= 3.5.0)
-Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape, stats,
-            stringi, utils
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape,
+          stats, stringi, utils
 Suggests: testthat, nlme, R.rsp, scales, WriteXLS
 License: GPL (>= 2)
 MD5sum: fbedd1752c7c9c210b8500a663607cea
@@ -1615,8 +1638,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 2.1.14
 Depends: R (>= 3.5.0)
-Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape, stats,
-            stringi, utils
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape,
+          stats, stringi, utils
 Suggests: testthat, nlme, R.rsp, scales, WriteXLS
 License: GPL (>= 2)
 MD5sum: 6fd306ec2da683938c1120c9f23a13f5
@@ -1625,8 +1648,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 2.1.15
 Depends: R (>= 3.5.0)
-Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape, stats,
-            stringi, utils
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape,
+          stats, stringi, utils
 Suggests: testthat, nlme, R.rsp, scales, WriteXLS
 License: GPL (>= 2)
 MD5sum: 3fdd240732a7171dfed705ddd3f91feb
@@ -1635,8 +1658,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 2.1.16
 Depends: R (>= 3.5.0)
-Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape, stats,
-            stringi, utils
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape,
+          stats, stringi, utils
 Suggests: testthat, nlme, R.rsp, scales, WriteXLS
 License: GPL (>= 2)
 MD5sum: 3ae6bcc64db806f3cdc29180d3b654f3
@@ -1645,8 +1668,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 2.1.17
 Depends: R (>= 3.5.0)
-Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape, stats,
-            stringi, utils
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape,
+          stats, stringi, utils
 Suggests: testthat, nlme, R.rsp, scales
 License: GPL (>= 2)
 MD5sum: 3cb3f324a9170068ea637f1975e09a37
@@ -1655,8 +1678,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 2.1.19
 Depends: R (>= 3.5.0)
-Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape, stats,
-            stringi, utils
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape,
+          stats, stringi, utils
 Suggests: testthat, nlme, R.rsp, scales
 License: GPL (>= 2)
 MD5sum: 1b79a17527831bdb2ac54ebe528d1c13
@@ -1665,8 +1688,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 2.1.21
 Depends: R (>= 3.5.0)
-Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape, stats,
-            stringi, utils
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape,
+          stats, stringi, utils
 Suggests: testthat, nlme, R.rsp, scales
 License: GPL (>= 2)
 MD5sum: 55f8b8b5544531496b2fd88b43dd476e
@@ -1675,8 +1698,8 @@ NeedsCompilation: no
 Package: growthPheno
 Version: 2.1.23
 Depends: R (>= 3.5.0)
-Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape, stats,
-            stringi, utils
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer, readxl, reshape,
+          stats, stringi, utils
 Suggests: testthat, nlme, R.rsp, scales
 License: GPL (>= 2)
 MD5sum: bd20b3aa70a31925854dc82bfaec828f
