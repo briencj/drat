@@ -1310,6 +1310,18 @@ License: MIT + file LICENSE
 MD5sum: e454247daf09871c002d891f4097548c
 NeedsCompilation: no
 
+Package: asremlPlus
+Version: 4.4.29
+Depends: R (>= 3.5.0)
+Imports: dae, devtools, doParallel, dplyr, foreach, ggplot2, graphics, grDevices,
+         methods, nloptr, parallel, qqplotr, RColorBrewer, reshape2, rlang, stats,
+         sticky, stringr, tryCatchLog, utils
+Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: ef46eb1588e7b7a9f12ebeade5366347
+NeedsCompilation: no
+
 Package: dae
 Version: 3.2.15
 Depends: R (>= 3.5.0), ggplot2
@@ -1362,6 +1374,15 @@ Imports: ggpubr, graphics, methods, plyr, stats
 Suggests: testthat, vdiffr, R.rsp
 License: GPL (>= 2)
 MD5sum: 39a83e687a83a250064cd0828cb9f834
+NeedsCompilation: no
+
+Package: dae
+Version: 3.2.23
+Depends: R (>= 3.5.0), ggplot2
+Imports: ggpubr, graphics, methods, plyr, stats, tryCatchLog
+Suggests: testthat, vdiffr, R.rsp
+License: GPL (>= 2)
+MD5sum: 47749d30481ae1b19504c9bb64ca1700
 NeedsCompilation: no
 
 Package: growthPheno

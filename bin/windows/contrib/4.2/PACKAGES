@@ -294,6 +294,16 @@ Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tict
 Enhances: asreml
 License: MIT + file LICENSE
 
+Package: asremlPlus
+Version: 4.4.29
+Depends: R (>= 3.5.0)
+Imports: dae, devtools, doParallel, dplyr, foreach, ggplot2, graphics, grDevices,
+         methods, nloptr, parallel, qqplotr, RColorBrewer, reshape2, rlang, stats,
+         sticky, stringr, tryCatchLog, utils
+Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
+Enhances: asreml
+License: MIT + file LICENSE
+
 Package: dae
 Version: 3.2-13
 Depends: R (>= 3.5.0), ggplot2
@@ -347,6 +357,13 @@ Package: dae
 Version: 3.2.22
 Depends: R (>= 3.5.0), ggplot2
 Imports: ggpubr, graphics, methods, plyr, stats
+Suggests: testthat, vdiffr, R.rsp
+License: GPL (>= 2)
+
+Package: dae
+Version: 3.2.23
+Depends: R (>= 3.5.0), ggplot2
+Imports: ggpubr, graphics, methods, plyr, stats, tryCatchLog
 Suggests: testthat, vdiffr, R.rsp
 License: GPL (>= 2)
 
