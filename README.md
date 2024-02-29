@@ -38,7 +38,7 @@ Use the links on this page to download either the Windows binary, for one or bot
 
 * [`dae 3.2.23`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
 
-* [`growthPheno 2.1.23`](#gpheno) - functional analysis of phenotypic growth data to smooth and extract traits.
+* [`growthPheno 2.1.24`](#gpheno) - functional analysis of phenotypic growth data to smooth and extract traits.
 
 * [`imageData 0.1-62`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer (superseded by [`growthPheno`](#gpheno)).
 
@@ -73,15 +73,15 @@ Windows binary R 4.3: [dae_3.2.23.zip](http://briencj.github.io/drat/bin/windows
 The package is also available from CRAN at <https://cran.r-project.org/package=dae> and from the Github repo at <https://github.com/briencj/dae>. However, the CRAN version, currently 3.2.21, is not updated as frequently as the version that is here and on [GitHub](https://github.com/briencj/dae). Older versions of the package and versions for older R versions are available from <https://github.com/briencj/drat/tree/gh-pages>.  
 
 ## `growthPheno` {#gpheno}
-*(last updated 25th October 2023)*
+*(last updated 29th February 2024)*
 
 The `growthPheno` package is a collection of R functions for the functional analysis of phenotypic growth data to smooth and extract traits (SET), as described by Brien et al. (2020). Version 2.0.15 and subsequent versions represent a major overhaul of the functions and usage of the package. It now has two functions, `traitSmooth` and `traitExtractFeatures`, that are sufficient to perform the SET on a set of growth data. In addition, new functions have been added to the package that will eventually replace the corresponding old functions, the new functions having revised arguments as compared to the old functions in an attempt to simplify function calls.  
 
 The `growthPheno` functions are described in growthPheno-manual.pdf, which can be found using `vignette("Manual", package = "growthPheno")`. An overview can be obtained using `??growthPheno`. Two vignettes, `Tomato` and `Rice`, illustrate the process for smoothing and extraction of traits (SET), the former being the example presented in Brien et al. (2020). Use `vignette("Tomato", package = "growthPheno")` or `vignette("Rice", package = "growthPheno")` to access either of the vignettes. Many of the functions can be applied to longitudinal data in general.
 
-Windows binary R 4.3: [growthPheno_2.1.23.zip](http://briencj.github.io/drat/bin/windows/contrib/4.3/growthPheno_2.1.23.zip); Windows binary R 4.2: [growthPheno_2.1.23.zip](http://briencj.github.io/drat/bin/windows/contrib/4.2/growthPheno_2.1.23.zip);  Package source: [growthPheno_2.1.23.tar.gz](http://briencj.github.io/drat/src/contrib/growthPheno_2.1.23.tar.gz).
+Windows binary R 4.3: [growthPheno_2.1.24.zip](http://briencj.github.io/drat/bin/windows/contrib/4.3/growthPheno_2.1.24.zip); Windows binary R 4.2: [growthPheno_2.1.24.zip](http://briencj.github.io/drat/bin/windows/contrib/4.2/growthPheno_2.1.24.zip);  Package source: [growthPheno_2.1.24.tar.gz](http://briencj.github.io/drat/src/contrib/growthPheno_2.1.24.tar.gz).
 
-The package is also available from CRAN: <https://cran.r-project.org/package=growthPheno> and from the Github repo at <https://github.com/briencj/growthPheno>. However, the CRAN version, currently 2.1.23, is not updated as frequently as the version here. Older versions of the package and versions for older R versions are available from <https://github.com/briencj/drat/tree/gh-pages>.
+The package is also available from CRAN: <https://cran.r-project.org/package=growthPheno> and from the Github repo at <https://github.com/briencj/growthPheno>. However, the CRAN version, currently 2.1.24, is not updated as frequently as the version here. Older versions of the package and versions for older R versions are available from <https://github.com/briencj/drat/tree/gh-pages>.
 
 #### Reference
 
