@@ -34,7 +34,7 @@ Use the links on this page to download either the Windows binary, for one or bot
 
 ## The packages available
 
-* [`asremlPlus 4.4.29`](#aplus) - augments `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences.
+* [`asremlPlus 4.4.30`](#aplus) - augments `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences.
 
 * [`dae 3.2.23`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
 
@@ -43,7 +43,7 @@ Use the links on this page to download either the Windows binary, for one or bot
 * [`imageData 0.1-62`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer (superseded by [`growthPheno`](#gpheno)).
 
 ### `asremlPlus` {#aplus}
-*(last updated 26th February 2024)*
+*(last updated 3rd March 2024)*
 
 The `asremlPlus` package is a collection of `R` functions to augment `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences. The current version  is compatible with both `ASReml-R` versions 3, 4.1 and 4.2, but not 4.0.  *The current version has known issues when the Intel MKL libraries are installed in the R installation directories.* 
 
@@ -53,7 +53,7 @@ Note that most functions are S3 methods and so the object supplied for the first
 
 For more information, install the package and run the R command `news(package = “asremlPlus”)`. For an overview enter `?asremlPlus`. Otherwise, you could consult the manual using `vignette("Manual", package = "asremlPlus")`. Also available is the Wheat.analysis vignette [`vignette("Wheat.analysis", package = "asremlPlus")`] that shows how to select the terms, using REML ratio tests, to be included in a mixed model for an experiment that involves spatial variation; it also illustrates diagnostic checking and prediction production and presentation for this example. A second vignette is the Wheat.SpatialModels vignette [`vignette("Wheat.SpatialModels", package = "asremlPlus")`] that differs from the Wheat.analysis vignette in using the functions for choosing local spatial variation models and in using the AIC to make the choice of model.  The third Wheat vignette is the Wheat.infoCriteria vignette [`vignette("Wheat.infoCriteria", package = "asremlPlus")`] that illustrates the facilities in `asremlPlus` for producing and using information criteria. Two further vignettes show how to use `asremlPlus` for exploring and presenting predictions from a linear mixed model analysis in the context of a three-factor factorial experiment on ladybirds: one vignette, Ladybird.asreml vignette [`vignette("Ladybird.asreml", package = "asremlPlus")`], uses `asreml` and `asremlPlus` to produce and present  predictions; the other vignette, Ladybird.lm vignette [`vignette("Ladybird.lm", package = "asremlPlus")`], uses `lm` to produce the predictions and `asremlPlus` to present the predictions..
 
-Windows binary R 4.3: [asremlPlus_4.4.29.zip](http://briencj.github.io/drat/bin/windows/contrib/4.3/asremlPlus_4.4.29.zip); Windows binary R 4.2: [asremlPlus_4.4.29.zip](http://briencj.github.io/drat/bin/windows/contrib/4.2/asremlPlus_4.4.29.zip);   Package source: [asremlPlus_4.4.29.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.4.29.tar.gz).
+Windows binary R 4.3: [asremlPlus_4.4.30.zip](http://briencj.github.io/drat/bin/windows/contrib/4.3/asremlPlus_4.4.30.zip); Windows binary R 4.2: [asremlPlus_4.4.30.zip](http://briencj.github.io/drat/bin/windows/contrib/4.2/asremlPlus_4.4.30.zip);   Package source: [asremlPlus_4.4.30.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.4.30.tar.gz).
 
 The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.4.27, is not updated as frequently as the version that is here and on [GitHub](https://github.com/briencj/asremlPlus). Older versions of the package and versions for older R versions are available from <https://github.com/briencj/drat/tree/gh-pages>.
 
