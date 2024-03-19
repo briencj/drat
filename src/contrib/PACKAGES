@@ -1406,7 +1406,16 @@ Depends: R (>= 3.5.0), ggplot2
 Imports: ggpubr, graphics, methods, plyr, stats, tryCatchLog
 Suggests: testthat, vdiffr, R.rsp
 License: GPL (>= 2)
-MD5sum: 47749d30481ae1b19504c9bb64ca1700
+MD5sum: 4020c513baf63fd37c8a4822812aaf91
+NeedsCompilation: no
+
+Package: dae
+Version: 3.2.24
+Depends: R (>= 3.5.0), ggplot2
+Imports: ggpubr, graphics, methods, plyr, stats, tryCatchLog
+Suggests: testthat, vdiffr, R.rsp
+License: GPL (>= 2)
+MD5sum: 0e06c44f2a9db107629b64fb4a613248
 NeedsCompilation: no
 
 Package: growthPheno
