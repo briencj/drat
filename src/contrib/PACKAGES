@@ -1418,6 +1418,15 @@ License: GPL (>= 2)
 MD5sum: 0e06c44f2a9db107629b64fb4a613248
 NeedsCompilation: no
 
+Package: dae
+Version: 3.2.25
+Depends: R (>= 3.5.0), ggplot2
+Imports: ggpubr, graphics, methods, plyr, stats, tryCatchLog
+Suggests: testthat, vdiffr, R.rsp
+License: GPL (>= 2)
+MD5sum: 3b8d26d6c3edade79f3d5fc96fd9e98d
+NeedsCompilation: no
+
 Package: growthPheno
 Version: 1.0-13
 Depends: R (>= 3.5.0)
