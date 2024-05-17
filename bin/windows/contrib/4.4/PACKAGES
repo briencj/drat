@@ -1,6 +1,33 @@
+Package: asremlPlus
+Version: 4.4.32
+Depends: R (>= 3.5.0)
+Imports: dae, devtools, doParallel, dplyr, foreach, ggplot2, graphics,
+        grDevices, methods, nloptr, parallel, qqplotr, RColorBrewer,
+        reshape2, rlang, stats, sticky, stringr, tryCatchLog, utils
+Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp,
+        testthat, tictoc
+Enhances: asreml
+License: MIT + file LICENSE
+
+Package: dae
+Version: 3.2.26
+Depends: R (>= 3.5.0), ggplot2
+Imports: ggpubr, graphics, methods, plyr, stats, tryCatchLog
+Suggests: testthat, vdiffr, R.rsp
+License: GPL (>= 2)
+
+Package: growthPheno
+Version: 2.1.24
+Depends: R (>= 3.5.0)
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods,
+        RColorBrewer, readxl, reshape, stats, stringi, utils
+Suggests: testthat, nlme, R.rsp, scales
+License: GPL (>= 2)
+
 Package: imageData
 Version: 0.1-62
 Depends: R (>= 3.1.0)
-Imports: dae, ggplot2, stats, readxl, Hmisc, GGally, RColorBrewer, reshape, grid
+Imports: dae, ggplot2, stats, readxl, Hmisc, GGally, RColorBrewer,
+        reshape, grid
 Suggests: testthat, R.rsp
 License: GPL (>= 2)
