@@ -1394,6 +1394,18 @@ License: MIT + file LICENSE
 MD5sum: 5eba770f05eb13a8c4d8c619d7d3012e
 NeedsCompilation: no
 
+Package: asremlPlus
+Version: 4.4.37
+Depends: R (>= 3.5.0)
+Imports: dae, devtools, doParallel, dplyr, foreach, ggplot2, graphics, grDevices,
+         methods, nloptr, parallel, qqplotr, RColorBrewer, reshape2, rlang, stats,
+         sticky, stringr, tryCatchLog, utils
+Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
+Enhances: asreml
+License: MIT + file LICENSE
+MD5sum: 07a40450fb26ae965ce89fe4b5ff34dd
+NeedsCompilation: no
+
 Package: dae
 Version: 3.2.15
 Depends: R (>= 3.5.0), ggplot2
@@ -1508,7 +1520,7 @@ Depends: R (>= 3.5.0), ggplot2
 Imports: ggpubr, graphics, methods, plyr, stats, tryCatchLog
 Suggests: testthat, vdiffr, R.rsp
 License: GPL (>= 2)
-MD5sum: 8e95b31b48ee2481d42d0e3c84c7951e
+MD5sum: b6f88ffdb1ed3ed87d5ddadf4e3139ee
 NeedsCompilation: no
 
 Package: growthPheno
@@ -1918,6 +1930,16 @@ Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer,
 Suggests: testthat, nlme, R.rsp, scales
 License: GPL (>= 2)
 MD5sum: 43b6669bddff4d7804ee852371cb4383
+NeedsCompilation: no
+
+Package: growthPheno
+Version: 2.1.25
+Depends: R (>= 3.5.0)
+Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer,
+         readxl, reshape, stats, stringi, utils
+Suggests: testthat, nlme, R.rsp, scales
+License: GPL (>= 2)
+MD5sum: 9f19f43fac5116a44f1a73519e546c41
 NeedsCompilation: no
 
 Package: imageData
