@@ -1939,7 +1939,7 @@ Imports: dae, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer,
          readxl, reshape, stats, stringi, utils
 Suggests: testthat, nlme, R.rsp, scales
 License: GPL (>= 2)
-MD5sum: 9f19f43fac5116a44f1a73519e546c41
+MD5sum: d74fc555081a0eb02c767bfda27c70fb
 NeedsCompilation: no
 
 Package: imageData
