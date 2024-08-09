@@ -38,7 +38,7 @@ Use the links on this page to download either the Windows binary, for one or bot
 
 * [`dae 3.2.29`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
 
-* [`growthPheno 2.1.25`](#gpheno) - functional analysis of phenotypic growth data to smooth and extract traits.
+* [`growthPheno 2.1.26`](#gpheno) - functional analysis of phenotypic growth data to smooth and extract traits.
 
 * [`imageData 0.1-62`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer (superseded by [`growthPheno`](#gpheno)).
 
@@ -64,7 +64,7 @@ Windows binary R 3.5: [asreml3Plus_2.0-14.zip](http://briencj.github.io/drat/bin
 Windows binary R 3.4: [asremlPlus_2.0-13.zip](http://briencj.github.io/drat/bin/windows/contrib/3.4/asremlPlus_2.0-13.zip);  Package source: [asremlPlus_2.0-13.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_2.0-13.tar.gz).
 
 ### `dae` {#dae}
-*(last updated 15th July 2024)*
+*(last updated 9th August 2024)*
 
 The `dae` package of `R` functions has been developed to facilitate the use of R for the design and analysis of variance of experiments; these days the emphasis is on design. It is described in the manual, which can be found using `vignette("Manual", package = "dae")`. Also found using `vignette("DesignNotes", package = "dae")` is a vignette describing how to use `designRandomize` to produce randomized layouts for experiments and `designAnatomy` to assessing the properties of designs. It covers both standard and multiphase experimental designs. The data sets that go with the vignette are available in `dae`.
 
@@ -79,9 +79,9 @@ The `growthPheno` package is a collection of R functions for the functional anal
 
 The `growthPheno` functions are described in growthPheno-manual.pdf, which can be found using `vignette("Manual", package = "growthPheno")`. An overview can be obtained using `??growthPheno`. Two vignettes, `Tomato` and `Rice`, illustrate the process for smoothing and extraction of traits (SET), the former being the example presented in Brien et al. (2020). Use `vignette("Tomato", package = "growthPheno")` or `vignette("Rice", package = "growthPheno")` to access either of the vignettes. Many of the functions can be applied to longitudinal data in general.
 
-Windows binary R 4.4: [growthPheno_2.1.25.zip](http://briencj.github.io/drat/bin/windows/contrib/4.4/growthPheno_2.1.25.zip);  Windows binary R 4.3: [growthPheno_2.1.25.zip](http://briencj.github.io/drat/bin/windows/contrib/4.3/growthPheno_2.1.25.zip); Package source: [growthPheno_2.1.25.tar.gz](http://briencj.github.io/drat/src/contrib/growthPheno_2.1.25.tar.gz).
+Windows binary R 4.4: [growthPheno_2.1.26.zip](http://briencj.github.io/drat/bin/windows/contrib/4.4/growthPheno_2.1.26.zip);  Windows binary R 4.3: [growthPheno_2.1.26.zip](http://briencj.github.io/drat/bin/windows/contrib/4.3/growthPheno_2.1.26.zip); Package source: [growthPheno_2.1.26.tar.gz](http://briencj.github.io/drat/src/contrib/growthPheno_2.1.26.tar.gz).
 
-The package is also available from CRAN: <https://cran.r-project.org/package=growthPheno> and from the Github repo at <https://github.com/briencj/growthPheno>. However, the CRAN version, currently 2.1.24, is not updated as frequently as the version here. Older versions of the package and versions for older R versions are available from <https://github.com/briencj/drat/tree/gh-pages>.
+The package is also available from CRAN: <https://cran.r-project.org/package=growthPheno> and from the Github repo at <https://github.com/briencj/growthPheno>. However, the CRAN version, currently 2.1.25, is not updated as frequently as the version here. Older versions of the package and versions for older R versions are available from <https://github.com/briencj/drat/tree/gh-pages>.
 
 #### Reference
 
