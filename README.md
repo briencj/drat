@@ -34,7 +34,7 @@ Use the links on this page to download either the Windows binary, for one or bot
 
 ## The packages available
 
-* [`asremlPlus 4.4.38`](#aplus) - augments `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences.
+* [`asremlPlus 4.4.40`](#aplus) - augments `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences.
 
 * [`dae 3.2.29`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
 
@@ -53,9 +53,9 @@ Note that most functions are S3 methods and so the object supplied for the first
 
 For more information, install the package and run the R command `news(package = “asremlPlus”)`. For an overview enter `?asremlPlus`. Otherwise, you could consult the manual using `vignette("Manual", package = "asremlPlus")`. Also available is the Wheat.analysis vignette [`vignette("Wheat.analysis", package = "asremlPlus")`] that shows how to select the terms, using REML ratio tests, to be included in a mixed model for an experiment that involves spatial variation; it also illustrates diagnostic checking and prediction production and presentation for this example. A second vignette is the Wheat.SpatialModels vignette [`vignette("Wheat.SpatialModels", package = "asremlPlus")`] that differs from the Wheat.analysis vignette in using the functions for choosing local spatial variation models and in using the AIC to make the choice of model.  The third Wheat vignette is the Wheat.infoCriteria vignette [`vignette("Wheat.infoCriteria", package = "asremlPlus")`] that illustrates the facilities in `asremlPlus` for producing and using information criteria. Two further vignettes show how to use `asremlPlus` for exploring and presenting predictions from a linear mixed model analysis in the context of a three-factor factorial experiment on ladybirds: one vignette, Ladybird.asreml vignette [`vignette("Ladybird.asreml", package = "asremlPlus")`], uses `asreml` and `asremlPlus` to produce and present  predictions; the other vignette, Ladybird.lm vignette [`vignette("Ladybird.lm", package = "asremlPlus")`], uses `lm` to produce the predictions and `asremlPlus` to present the predictions..
 
-Windows binary R 4.4: [asremlPlus_4.4.38.zip](http://briencj.github.io/drat/bin/windows/contrib/4.4/asremlPlus_4.4.38.zip);   Windows binary R 4.3: [asremlPlus_4.4.38.zip](http://briencj.github.io/drat/bin/windows/contrib/4.3/asremlPlus_4.4.38.zip); Package source: [asremlPlus_4.4.38.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.4.38.tar.gz).
+Windows binary R 4.4: [asremlPlus_4.4.40.zip](http://briencj.github.io/drat/bin/windows/contrib/4.4/asremlPlus_4.4.40.zip);   Windows binary R 4.3: [asremlPlus_4.4.40.zip](http://briencj.github.io/drat/bin/windows/contrib/4.3/asremlPlus_4.4.40.zip); Package source: [asremlPlus_4.4.40.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.4.40.tar.gz).
 
-The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.4.38, is not updated as frequently as the version that is here and on [GitHub](https://github.com/briencj/asremlPlus). Older versions of the package and versions for older R versions are available from <https://github.com/briencj/drat/tree/gh-pages>.
+The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.4.40, is not updated as frequently as the version that is here and on [GitHub](https://github.com/briencj/asremlPlus). Older versions of the package and versions for older R versions are available from <https://github.com/briencj/drat/tree/gh-pages>.
 
 The final version of `asremlPlus` that was produced specifically for ASReml-R version 3 is version 2.0-13.  It is no longer being developed. A version of `asremlPlus` 2.0-13 built for `R` 3.5.0 is available as `asreml3Plus`  version 2.0-14; that is, to load this version, a `3` must be included in the package name. 
 
