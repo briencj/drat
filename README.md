@@ -43,7 +43,7 @@ Use the links on this page to download either the Windows binary, for one or bot
 * [`imageData 0.1.64`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer (superseded by [`growthPheno`](#gpheno)).
 
 ### `asremlPlus` {#aplus}
-*(last updated 14th August 2025)*
+*(last updated 15th August 2025)*
 
 The `asremlPlus` package is a collection of `R` functions to augment `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences. The current version  is compatible with both `ASReml-R` versions 3, 4.1 and 4.2, but not 4.0.  *The current version has known issues when the Intel MKL libraries are installed in the R installation directories.* 
 
