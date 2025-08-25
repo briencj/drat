@@ -1571,7 +1571,7 @@ Imports: dae, devtools, doParallel, dplyr, foreach, ggplot2, graphics, grDevices
 Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
 Enhances: asreml
 License: MIT + file LICENSE
-MD5sum: 016917f95a9d9a700778472f97d78ee4
+MD5sum: b0edd6779c2176f04928f02d711b8422
 NeedsCompilation: no
 
 Package: dae
