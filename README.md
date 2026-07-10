@@ -34,17 +34,16 @@ Use the links on this page to download either the Windows binary, for one or bot
 
 ## The packages available
 
-* [`asremlPlus 4.4.62`](#aplus) - augments `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences.
+* [`asremlPlus 4.4.63`](#aplus) - augments `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences.
 
-* [`dae 3.2.33`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
+* [`dae 3.2.35`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
 
 * [`growthPheno 3.1.18`](#gpheno) - functional analysis of phenotypic growth data to smooth and extract traits.
 
 * [`imageData 0.1.64`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer (superseded by [`growthPheno`](#gpheno)).
 
 ### `asremlPlus` {#aplus}
-*(last updated 19
-th May 2026)*
+*(last updated 10th June 2026)*
 
 The `asremlPlus` package is a collection of `R` functions to augment `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences. The current version  is compatible with both `ASReml-R` versions 3, 4.1 and 4.2, but not 4.0.  *The current version has known issues when the Intel MKL libraries are installed in the R installation directories.* 
 
@@ -54,9 +53,9 @@ Note that most functions are S3 methods and so the object supplied for the first
 
 For more information, install the package and run the R command `news(package = “asremlPlus”)`. For an overview enter `?asremlPlus`. Otherwise, you could consult the manual using `vignette("Manual", package = "asremlPlus")`. Also available is the Wheat.analysis vignette [`vignette("Wheat.analysis", package = "asremlPlus")`] that shows how to select the terms, using REML ratio tests, to be included in a mixed model for an experiment that involves spatial variation; it also illustrates diagnostic checking and prediction production and presentation for this example. A second vignette is the Wheat.SpatialModels vignette [`vignette("Wheat.SpatialModels", package = "asremlPlus")`] that differs from the Wheat.analysis vignette in using the functions for choosing local spatial variation models and in using the AIC to make the choice of model.  The third Wheat vignette is the Wheat.infoCriteria vignette [`vignette("Wheat.infoCriteria", package = "asremlPlus")`] that illustrates the facilities in `asremlPlus` for producing and using information criteria. Two further vignettes show how to use `asremlPlus` for exploring and presenting predictions from a linear mixed model analysis in the context of a three-factor factorial experiment on ladybirds: one vignette, Ladybird.asreml vignette [`vignette("Ladybird.asreml", package = "asremlPlus")`], uses `asreml` and `asremlPlus` to produce and present  predictions; the other vignette, Ladybird.lm vignette [`vignette("Ladybird.lm", package = "asremlPlus")`], uses `lm` to produce the predictions and `asremlPlus` to present the predictions..
 
-Windows binary R 4.5: [asremlPlus_4.4.62.zip](http://briencj.github.io/drat/bin/windows/contrib/4.5/asremlPlus_4.4.62.zip);   Windows binary R 4.4: [asremlPlus_4.4.62.zip](http://briencj.github.io/drat/bin/windows/contrib/4.4/asremlPlus_4.4.62.zip); Package source: [asremlPlus_4.4.62.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.4.62.tar.gz).
+Windows binary R 4.6: [asremlPlus_4.4.63.zip](http://briencj.github.io/drat/bin/windows/contrib/4.6/asremlPlus_4.4.63.zip); Windows binary R 4.5: [asremlPlus_4.4.63.zip](http://briencj.github.io/drat/bin/windows/contrib/4.5/asremlPlus_4.4.63.zip);   Package source: [asremlPlus_4.4.63.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_4.4.63.tar.gz).
 
-The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.4.58, is not updated as frequently as the version that is here and on [GitHub](https://github.com/briencj/asremlPlus). Older versions of the package and versions for older R versions are available from <https://github.com/briencj/drat/tree/gh-pages>.
+The package is also available from CRAN at <https://cran.r-project.org/package=asremlPlus> and from the Github repo at <https://github.com/briencj/asremlPlus>. However, the CRAN version, currently 4.4.63, is not updated as frequently as the version that is here and on [GitHub](https://github.com/briencj/asremlPlus). Older versions of the package and versions for older R versions are available from <https://github.com/briencj/drat/tree/gh-pages>.
 
 The final version of `asremlPlus` that was produced specifically for ASReml-R version 3 is version 2.0-13.  It is no longer being developed. A version of `asremlPlus` 2.0-13 built for `R` 3.5.0 is available as `asreml3Plus`  version 2.0-14; that is, to load this version, a `3` must be included in the package name. 
 
@@ -65,11 +64,11 @@ Windows binary R 3.5: [asreml3Plus_2.0-14.zip](http://briencj.github.io/drat/bin
 Windows binary R 3.4: [asremlPlus_2.0-13.zip](http://briencj.github.io/drat/bin/windows/contrib/3.4/asremlPlus_2.0-13.zip);  Package source: [asremlPlus_2.0-13.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_2.0-13.tar.gz).
 
 ### `dae` {#dae}
-*(last updated 31st October 2025)*
+*(last updated 10th June 2026)*
 
 The `dae` package of `R` functions has been developed to facilitate the use of R for the design and analysis of variance of experiments; these days the emphasis is on design. It is described in the manual, which can be found using `vignette("Manual", package = "dae")`. Also found using `vignette("DesignNotes", package = "dae")` is a vignette describing how to use `designRandomize` to produce randomized layouts for experiments and `designAnatomy` to assessing the properties of designs. It covers both standard and multiphase experimental designs. The data sets that go with the vignette are available in `dae`.
 
-Windows binary R 4.5: [dae_3.2.33.zip](http://briencj.github.io/drat/bin/windows/contrib/4.5/dae_3.2.33.zip);  Windows binary R 4.4: [dae_3.2.33.zip](http://briencj.github.io/drat/bin/windows/contrib/4.4/dae_3.2.33.zip);  Package source: [dae_3.2.33.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.2.33.tar.gz).
+Windows binary R 4.6: [dae_3.2.35.zip](http://briencj.github.io/drat/bin/windows/contrib/4.6/dae_3.2.35.zip);  Windows binary R 4.5: [dae_3.2.35.zip](http://briencj.github.io/drat/bin/windows/contrib/4.5/dae_3.2.35.zip);  Package source: [dae_3.2.35.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.2.35.tar.gz).
 
 The package is also available from CRAN at <https://cran.r-project.org/package=dae> and from the Github repo at <https://github.com/briencj/dae>. However, the CRAN version, currently 3.2.32, is not updated as frequently as the version that is here and on [GitHub](https://github.com/briencj/dae). Older versions of the package and versions for older R versions are available from <https://github.com/briencj/drat/tree/gh-pages>.  
 
