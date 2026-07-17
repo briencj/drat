@@ -38,12 +38,12 @@ Use the links on this page to download either the Windows binary, for one or bot
 
 * [`dae 3.2.35`](#dae) - facilitates the use of R for the design and analysis of variance of experiments.
 
-* [`growthPheno 3.1.18`](#gpheno) - functional analysis of phenotypic growth data to smooth and extract traits.
+* [`growthPheno 3.1.20`](#gpheno) - functional analysis of phenotypic growth data to smooth and extract traits.
 
 * [`imageData 0.1.64`](#idata) - aids in processing and plotting data from a Lemna-Tec Scananalyzer (superseded by [`growthPheno`](#gpheno)).
 
 ### `asremlPlus` {#aplus}
-*(last updated 10th June 2026)*
+*(last updated 17th July 2026)*
 
 The `asremlPlus` package is a collection of `R` functions to augment `ASReml-R` in fitting mixed models and packages generally in exploring prediction differences. The current version  is compatible with both `ASReml-R` versions 3, 4.1 and 4.2, but not 4.0.  *The current version has known issues when the Intel MKL libraries are installed in the R installation directories.* 
 
@@ -64,24 +64,24 @@ Windows binary R 3.5: [asreml3Plus_2.0-14.zip](http://briencj.github.io/drat/bin
 Windows binary R 3.4: [asremlPlus_2.0-13.zip](http://briencj.github.io/drat/bin/windows/contrib/3.4/asremlPlus_2.0-13.zip);  Package source: [asremlPlus_2.0-13.tar.gz](http://briencj.github.io/drat/src/contrib/asremlPlus_2.0-13.tar.gz).
 
 ### `dae` {#dae}
-*(last updated 10th June 2026)*
+*(last updated 17th July 2026)*
 
 The `dae` package of `R` functions has been developed to facilitate the use of R for the design and analysis of variance of experiments; these days the emphasis is on design. It is described in the manual, which can be found using `vignette("Manual", package = "dae")`. Also found using `vignette("DesignNotes", package = "dae")` is a vignette describing how to use `designRandomize` to produce randomized layouts for experiments and `designAnatomy` to assessing the properties of designs. It covers both standard and multiphase experimental designs. The data sets that go with the vignette are available in `dae`.
 
 Windows binary R 4.6: [dae_3.2.35.zip](http://briencj.github.io/drat/bin/windows/contrib/4.6/dae_3.2.35.zip);  Windows binary R 4.5: [dae_3.2.35.zip](http://briencj.github.io/drat/bin/windows/contrib/4.5/dae_3.2.35.zip);  Package source: [dae_3.2.35.tar.gz](http://briencj.github.io/drat/src/contrib/dae_3.2.35.tar.gz).
 
-The package is also available from CRAN at <https://cran.r-project.org/package=dae> and from the Github repo at <https://github.com/briencj/dae>. However, the CRAN version, currently 3.2.32, is not updated as frequently as the version that is here and on [GitHub](https://github.com/briencj/dae). Older versions of the package and versions for older R versions are available from <https://github.com/briencj/drat/tree/gh-pages>.  
+The package is also available from CRAN at <https://cran.r-project.org/package=dae> and from the Github repo at <https://github.com/briencj/dae>. However, the CRAN version, currently 3.2.35, is not updated as frequently as the version that is here and on [GitHub](https://github.com/briencj/dae). Older versions of the package and versions for older R versions are available from <https://github.com/briencj/drat/tree/gh-pages>.  
 
 ## `growthPheno` {#gpheno}
-*(last updated 19th October 2025)*
+*(last updated 17th July 2026)*
 
 The `growthPheno` package is a collection of R functions for the functional analysis of phenotypic growth data to smooth and extract traits (SET), as described by Brien et al. (2020). Version 2.0.15 and subsequent versions represent a major overhaul of the functions and usage of the package. It now has two functions, `traitSmooth` and `traitExtractFeatures`, that are sufficient to perform the SET on a set of growth data. In addition, new functions have been added to the package that will eventually replace the corresponding old functions, the new functions having revised arguments as compared to the old functions in an attempt to simplify function calls.  
 
 The `growthPheno` functions are described in growthPheno-manual.pdf, which can be found using `vignette("Manual", package = "growthPheno")`. An overview can be obtained using `??growthPheno`. Two vignettes, `Tomato` and `Rice`, illustrate the process for smoothing and extraction of traits (SET), the former being the example presented in Brien et al. (2020). Use `vignette("Tomato", package = "growthPheno")` or `vignette("Rice", package = "growthPheno")` to access either of the vignettes. Many of the functions can be applied to longitudinal data in general.
 
-Windows binary R 4.5: [growthPheno_3.1.18.zip](http://briencj.github.io/drat/bin/windows/contrib/4.5/growthPheno_3.1.18.zip);  Windows binary R 4.4: [growthPheno_3.1.18.zip](http://briencj.github.io/drat/bin/windows/contrib/4.4/growthPheno_3.1.18.zip); Package source: [growthPheno_3.1.18.tar.gz](http://briencj.github.io/drat/src/contrib/growthPheno_3.1.18.tar.gz).
+Windows binary R 4.6: [growthPheno_3.1.20.zip](http://briencj.github.io/drat/bin/windows/contrib/4.6/growthPheno_3.1.20.zip); Windows binary R 4.5: [growthPheno_3.1.20.zip](http://briencj.github.io/drat/bin/windows/contrib/4.5/growthPheno_3.1.20.zip);  Package source: [growthPheno_3.1.20.tar.gz](http://briencj.github.io/drat/src/contrib/growthPheno_3.1.20.tar.gz).
 
-The package is also available from CRAN: <https://cran.r-project.org/package=growthPheno> and from the Github repo at <https://github.com/briencj/growthPheno>. However, the CRAN version, currently 3.1.18, is not updated as frequently as the version here. Older versions of the package and versions for older R versions are available from <https://github.com/briencj/drat/tree/gh-pages>.
+The package is also available from CRAN: <https://cran.r-project.org/package=growthPheno> and from the Github repo at <https://github.com/briencj/growthPheno>. However, the CRAN version, currently 3.1.20, is not updated as frequently as the version here. Older versions of the package and versions for older R versions are available from <https://github.com/briencj/drat/tree/gh-pages>.
 
 #### Reference
 

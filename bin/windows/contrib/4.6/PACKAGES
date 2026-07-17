@@ -7,7 +7,7 @@ Imports: dae, devtools, doParallel, dplyr, foreach, ggplot2, graphics, grDevices
 Suggests: emmeans (>= 1.8.8), lattice, lmerTest, pbkrtest, R.rsp, testthat, tictoc
 Enhances: asreml
 License: MIT + file LICENSE
-Built: R 4.6.1; ; 2026-07-10 10:55:58 UTC; windows
+Built: R 4.6.1; ; 2026-07-17 10:44:38 UTC; windows
 File: asremlPlus_4.4.63.zip
 
 Package: dae
@@ -16,5 +16,15 @@ Depends: R (>= 3.5.0), ggplot2
 Imports: ggpubr, graphics, methods, plyr, stats, stringi, tryCatchLog
 Suggests: testthat, vdiffr, R.rsp
 License: GPL (>= 2)
-Built: R 4.6.1; ; 2026-07-10 11:06:58 UTC; windows
+Built: R 4.6.1; ; 2026-07-17 10:51:11 UTC; windows
 File: dae_3.2.35.zip
+
+Package: growthPheno
+Version: 3.1.20
+Depends: R (>= 3.5.0)
+Imports: dae, dplyr, GGally, ggplot2, grDevices, Hmisc, JOPS, methods, RColorBrewer,
+         readxl, reshape, stats, stringi, utils
+Suggests: testthat, nlme, R.rsp, scales
+License: GPL (>= 2)
+Built: R 4.6.1; ; 2026-07-17 10:57:48 UTC; windows
+File: growthPheno_3.1.20.zip
